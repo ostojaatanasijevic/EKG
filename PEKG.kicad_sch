@@ -845,196 +845,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -1966,6 +1776,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2435,6 +2428,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3712,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 142.24) (xy 375.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030bd324-3cf2-47d9-9663-b53b5388b359")
+	)
+	(wire
+		(pts
 			(xy 91.44 208.28) (xy 91.44 217.17)
 		)
 		(stroke
@@ -3992,16 +4078,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 143.51) (xy 369.57 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2761b0f1-dd8c-4c8c-8dcc-9b0c4fdd8f60")
-	)
-	(wire
-		(pts
 			(xy 322.58 69.85) (xy 322.58 74.93)
 		)
 		(stroke
@@ -4279,16 +4355,6 @@
 			(type default)
 		)
 		(uuid "4028961d-1a66-4c5a-84b7-5ed641e35778")
-	)
-	(wire
-		(pts
-			(xy 369.57 140.97) (xy 374.65 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428d90c8-5f89-4e04-b58c-6d8ea7a3d4fe")
 	)
 	(wire
 		(pts
@@ -4942,6 +5008,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 137.16) (xy 375.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f5a7dd-7b22-4c94-9eb8-5bb8519b5213")
+	)
+	(wire
+		(pts
 			(xy 40.64 276.86) (xy 40.64 275.59)
 		)
 		(stroke
@@ -5082,6 +5158,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 139.7) (xy 375.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afc07b5-9521-4881-ac90-bc537c6087ac")
+	)
+	(wire
+		(pts
 			(xy 102.87 251.46) (xy 102.87 252.73)
 		)
 		(stroke
@@ -5119,16 +5205,6 @@
 			(type default)
 		)
 		(uuid "a015ddb4-fab2-402a-aeac-7e1544baa6f4")
-	)
-	(wire
-		(pts
-			(xy 369.57 134.62) (xy 374.65 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ce72e0-01aa-4938-bd7c-9ea13683929f")
 	)
 	(wire
 		(pts
@@ -5712,16 +5788,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 132.08) (xy 374.65 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0775f1-6afe-4198-83a8-a936b44c8026")
-	)
-	(wire
-		(pts
 			(xy 134.62 60.96) (xy 139.7 60.96)
 		)
 		(stroke
@@ -5900,6 +5966,134 @@
 		)
 		(uuid "feb0b019-b209-44a7-af91-29bc2b74e120")
 	)
+	(image
+		(at 444.5 135.89)
+		(uuid "495cbeba-1a90-4fa7-891f-e4b07e51b79f")
+		(data "iVBORw0KGgoAAAANSUhEUgAAAdoAAADGCAIAAAD65dasAAAAA3NCSVQICAjb4U/gAAAbEElEQVR4"
+			"nO3de1BTd97H8W8CARMQCIZrKQh0RRFtke5UUS5SL+20eO1aHVS81M7OztPZ6ez+tzvT2+zO7nTG"
+			"HZ91HKvjCgrFret2tvRZi+JdRhldW7dVJKAIyEVuIUhCDLk8fxxM0wDhJDnkXPJ5/eGEcDj5juO8"
+			"PZycnJ/MbrcTAADwTc73AAAAQIQcAwAIBHIMACAIyDEAgCAgxwAAgoAcAwAIAnIMACAIyDEAgCAg"
+			"xwAAgoAcAwAIAnIMACAIyDEAgCAE8z0An6xW67lz59ra2sLCwsLDw/kex52RkRG9Xq/RaF577TWl"
+			"Usn3OADAPVkg39GtvLz84cOHfE/hmdDQ0Pfeey8sLIzvQQCAYwF9sqK1tZXvETz29OnTsrIyo9HI"
+			"9yAAwLGAzrFIfzPo6+srLy9HkQEkJqBzLF49PT0oMoDEBPRbec40Gs369ev5nmJSJpPp66+/1ul0"
+			"jmeYIpeWlqpUKh4HAwCuIMdjFApFYmIi31O4884775SXl/f09DieQZEBpAQnK0RDpVKVlpbGxsY6"
+			"P4mzFgCSgRyLCYoMIGHIscigyABShRyLD4oMIEnIsSihyADSgxyLFYoMIDHIsYihyABSguuOWbFa"
+			"rRcuXJg5c2ZQUNCEG1gsFqPRmJ+fHxw88V+pzWa7f//+7NmzFQoFh4MxRcb1yAASgByzcuXKlbq6"
+			"uik302q1O3fuDA0NnfBbf//733Nzc1euXMntbCgygDQgx6wwhdVoNMnJyRNuYDKZmpqaHj9+XFZW"
+			"VlJSMv7uycPDw8xm0zEeigwgAcgxK8wZhuTk5OLi4sm20el0FRUV3d3dR44c2bp166xZs/w4IIoM"
+			"IHp4K48zarV6165diYmJg4ODBw4c6Orq8vMAeGcPQNSQYy6FhYWVlpZGRETYbLY7d+74fwAUGUC8"
+			"kGOOhYSEpKenE5FareZlABQZQKSQY+7JZDJ+B0CRAcQIOZYmFBlAdJBjyUKRAcQFOZayyYp88ODB"
+			"oaEhvqYCgAnhumPuCWqBapfrkXup9yJdHHgysHff3rjYOL6nI8tT03BnV0Z7aPG9BDnxfM6diCwm"
+			"03BXV1BoaHhCgi/vAVhGRoa7u2OzskpOnw4JC+NwQu90ffvtlT/+UZORsfzjj2VyHIQJFHLMMbPZ"
+			"fP/+fSIaHBzke5YxTJEPHTqk1+sv0IW7dJeIyEYd3R18j0ZEREp6MIc017vTH/A9iRNDd7fvO2m7"
+			"cuVoXt6uujqFUun73rzWfu1axerV5idPiGj28uVpr77K4zBsWJ4+/cemTcb+fm53axsdzX7nnZw9"
+			"e7jdLYeQYy4ZDIbKysqhoaGgoKB58+bxPc6PWltb9Xo9EWlIw/csE5BbKXqA7yGmR/e331atWbPl"
+			"q6/4KrJzi0ku18ydy8sYHhnp72/86qtp2bVcjhwHhIGBgYqKCp1OFxUVtW3btujoaL4nGtPQ0HDy"
+			"5EnmcSEVplCKjnRJzyVlZ2fzOxgR2e22/nva7CdxsX/m5zJtF3abrU+rDY+LU/p22bjVbL5x4EBf"
+			"QwMRtdTW8lXkn7RYJlv7t79FPPecn2fwTrBSaRkZ4Xy3QZPccFEgBD2ccFitViJqbW2trq52PGm3"
+			"2/v6+kJDQyMiIkZGRpqamiwWS3x8/IS3EOIL02LH6Ww5ydMpPS8vr6ioiN/BfvQy3wNMj+zdu6vW"
+			"rGmprSWeiuza4qNHXyot9durgxeQY1b6+/uZP/vdns+Kj4/fsWPHhDfY5IVLixkFBQWFhYU8TRRA"
+			"FErllq++4qvIaLEYIcesxMTEEFFycvLChQudn9dqtVqtlogyMzNnzZrl5vbz/ocWu7BZrRc/+KBf"
+			"q13+ySeajAw/vCJfRUaLRUoo7RA45ponjUaTk5Pj/HxOTs61a9fOnDlz9+7doqIitFjIHtTWXvnD"
+			"H4hIJpe/deKEf17U/0VGi8ULVyD6asmSJW+++SYRnT9/vra2VggXHaPFExp8+JB5MNDc7M/XZYqc"
+			"umIF8yVT5NFpeJ+K0GKRQ445kJOTs2HDBplMVldXd/r0aX6LjBYLkH+KjBaLHXLMjQULFrz99tty"
+			"ufzGjRv/+te/bDYbL2OgxYI13UVGiyVAKOc6JSAjI6OkpKSqqur27dtms3njxo3Oy04ziezt7b15"
+			"8yabvYWHh2dkZHj0OV20WOCm7zwyWiwNyDErcrmcnq2Y50ZaWtr27dsrKysbGhoePnzI3IeewVwh"
+			"197e3t7ezvJFS0pKXnjhBZYbo8WiMB1FRoslAzlmZeHChUajMSsra8otn3/++Z07d2q12pSUFOfn"
+			"8/LyHj9+HB4eHhISwuYVlUqlyx7cQItFhNsio8VSghyzEhwcvGzZMpYbx8XFxcW53iyNWUaP67mI"
+			"0GIR4qrIaLHE4K08cUOLRcr3d/bQYulBjkUMLRY1X4qMFksScixWaLEEeFdktFiqkGNRQoslw9Mi"
+			"o8UShhyLD1osMeyLjBZLG3IsMmixJLEpMlosecixmKDFEua+yGhxIMB1x6KBFnPF0Nt787PPJvtu"
+			"Yk5O4sv8rFAy2fXI3d99hxYHAuR4TE9Pz/79+/meYlIjIyNGo9HlSbTYI8beXubBUFvb//3yl262"
+			"fPvLL+euW+eXoVyNL3JZfn7vvXujw8NEaLHEIcdjrFar+4WXhAYt9pSc3cfTiahfq53WSdxzKXKn"
+			"455TAmjx3VOnvvn1r9VpaSWnT4eEhfE4iSQhx6KUm5uLFnsq9ze/0VZX9965MzMxMXjGjMk2S1qy"
+			"JHv3bn8ONp5LkRm8t7j92rV/bN5st1iedHQczc/fdfWq/9fGljbkWJSam5uXLl2qUqn4HkRM5EFB"
+			"u65c4XsKtpgiH5g/f7ClhYhWfPop7y2uWL3abrEwX3bfuuX/tbElD1dWiFJPT095efn4s8kgJQql"
+			"8n8aG1ft3bvzypWlv/0tj5P85LqOZ6Z1lanAhKPjMVFRUUL+9d9sNl++fHmYeT+HiJ4VubS0FMfI"
+			"EhakUCx5/31+Z3C5xu7Nzz6788UXfl4bO0Agx2OUSuWLL77I9xTuzJ8/v7y8vKenx/EMigzTbcLr"
+			"nRdu3erPtbEDB05WiIZKpSotLY2NjXV+EmctYPpM9tkTf66NHVCQYzFBkcFv3H8OEEWeDsixyKDI"
+			"4AdsPpONInMOORYfFBmmFfv7Y6DI3EKORQlFhmni6b2KUGQOIcdihSID57y7bxyKzBXkWMRQZOCQ"
+			"L/fwRJE5gRyzYrPZmpqaRkdHud2t3W6/cePGo0ePvN4Digyc8P1+yiiy75BjVrRa7eeff37x4kUO"
+			"92m322tqav79738fPXoURQYecXVvexTZR8gxK8ynk00mE1c7tNvt58+fr6+vJyKbzXbs2LGWlhav"
+			"94Yig9e4XWcERfYFcswDpsVXr16VyWQbN25csGDB6OhoZWWl1ofb7KLI4IXpWPMJRfYacuxvzi1+"
+			"6623srKy1q9fn5OTY7VaT5w48cMPP3i9ZxQZPDJ96++hyN5Bjv3KpcWZmZlEJJPJ3njjjdzcXLvd"
+			"furUqVu3bnm9fxQZWJrutVBRZC8gx/4zYYsZMplsxYoVy5cvJ6Lq6urr1697/SooMkzJP+tSo8ie"
+			"Qo79hLmOYsIWM2QyWX5+/urVq4mopqamtrbWZdFo9lBkcMM/LWagyB5Bjv2kvr6euY5iwhY7LF68"
+			"eM2aNURUV1fHbO8dFBkm5M8WM1Bk9pBjP7FYLESUnp7upsWM7Ozs1NRUIrLZbL68IooMLvzfYgaK"
+			"zBJy7CczZswgosjISDYbq9VqIgoNDfXxRScr8sGDB4eGhnzcOYgLXy1moMhsYHEmvzIYDJ2dnWw2"
+			"4+oVmSI7VnXqpd6LdHHgycDefXvjYuO4ehWvWZ6ahju7MtpDi+8lyEnG9zhkMZmGu7qCQkPDExJk"
+			"Mv7n4cqo0Tig1dqZ37f83mIGU2TnVZ1OrF279ZtvZHIcFI5Bjv1Ep9MRUWNjY2Njo0c/4jumyIcO"
+			"HdLr9Rfowl26S0Rko47uDk727yslPZhDmuvd6Q/4nsSJobub7xGmCy8tZrgU+cHZsy3nz6c9O2QG"
+			"5NhPlEolEalUKjbnK/R6vdFoVHK3FmRra6teryciDWm42ieH5FaKHuB7iMCw8tNP+WoxgynyibVr"
+			"H5w9KwsKUqen8ziM0CDHfsKcO547d25xcfGUG1dXV9+6dYv5Ed81NDScPHmSeVxIhSmUoiNd0nNJ"
+			"2dnZnOzfF3a7rf+eNvtJXOyf1XzPQkRkt9n6tNrwuDilWhDzcMVus/U3NWX+4hfPL17M9yykUCq3"
+			"fvNN29WrkcnJUbNn8z2OgCDHEse02HEJs5zk6ZSel5dXVFTE72A/epnvAcDvZHJ5Sn4+31MIDnIs"
+			"ZS4tZhQUFBQWFvI0EQBMCjmWLLTYheXp0+OrVvV8/314QkLwT08EPR0aGunvn7tu3ZojR6R0QQWI"
+			"C3IsTWjxeNf27m27fJmITJNcsvLd0aORKSmFH3zg37kAxuCKPwlCiydkZ/Epx0sfftjw5Zd+GAZg"
+			"PBwdSw1aPBmVZuwiv8jk5Lzf/c75W4be3ro//ck8PExEX2zcuO3s2bRXX+VhRAhsyLGkoMVsqGJi"
+			"ct591+XJ2YWFZQUFdquV7PZLH32EHIP/IcesMIHr7e29efMmm+3Dw8MzMjL8/KYQWuyL5KVLZxcW"
+			"tpw7R0SqWbP4HgcCEXLMSn9/PxG1t7e3t7ez/JGSkpIXXnjB8aVcLicihULB5mc92piBFvtOnZY2"
+			"luOf3nQJwD+QY1by8vIeP34cHh4eEhLCZnulUpmSkuL8zMKFC41GY1ZWFsuXmzlz5rx581iOhxYD"
+			"SAByzEpYWFipb5/0Dw4OXrZsGcuNIyIi8ll/Zgkt5pzX67AA+AIXuokbWsyhzv/8h3mgb23ldxII"
+			"TMixiKHFHPqurKz72RrewexOSQFwCycrxAot9pTj72qwtbX63XeJyGIy9d27p1SrZcHBzd98w3xX"
+			"ERa24tNPeZsSAhhyLEposRf0bW3Mg5G+vluHD0+4TXBY2K66upi5c/04F8AYnKwQH7R4+mw4diz+"
+			"xRf5ngICFI6ORQYt9lrUs0sPVRrN3A0biMhsMDRVVz99topr+qpVc9ev520+CHjIsZigxZyITEkp"
+			"/uwz5vHQo0dly5frmpuJ6P6ZMzXvv7/6L3/BPTaBFzhZIRpo8XSISEraceGC+tnnJ+v37at5/31c"
+			"dwy8wNHxmJ6env379/M9xaRMJpPBYHB5Ei3mBFNkxzFy/b59swsL565bx/dcEHCQ4zFWq5W5MYVY"
+			"oMWein52CByVmuryLZci92u1/h4OADkWqdzcXLTYU6lFRXm//31/Y+Pyjz8e/92IpKSdly5d/dOf"
+			"LCZT9u7d/h8PADkWpebm5qVLl6pUKr4HEROZTFb0ySduNpiZmPj6//6v3+YBcIG38kSpp6envLzc"
+			"aDTyPQgAcAZHx2OioqKE/Ou/2Wy+fPny8PCw4xmmyKWlpThGBpAG5HiMUql8Udgfx5o/f355eXlP"
+			"T4/jGRQZQEpwskI0VCpVaWlp7E8XqsBZCwDJQI7FBEUGkDDkWGRQZACpQo7FB0UGkCTkWJRQZADp"
+			"QY7FCkUGkBjkWMRQZAApwXXHrFit1gsXLsycOTMoKGjCDSwWi9FozM/PDw724K/UbrffvHkzISEh"
+			"KSnJu8GYIuN6ZAAJQI5ZuXLlSl1d3ZSbabXanTt3hoaGstmn3W6vqampr6+Xy+U7d+5EkQECHHLM"
+			"ClNYjUaTnJw84QYmk6mpqenx48dlZWUlJSXh4eHud2i328+fP19fX09ENpvt2LFjW7ZsSR1340eW"
+			"UGQACUCOWVEoFESUnJxcXFw82TY6na6ioqK7u/vIkSNbt26dNWvWZFsyLb569apMJtuwYYNWq/3+"
+			"++8rKys3bdo0Z84c7yZEkQHEDm/lcUatVu/atSsxMXFwcPDAgQNdXV0Tbubc4rfeeisrK2v9+vU5"
+			"OTlWq/XEiRM//PCD1wPgnT0AUUOOuRQWFlZaWhoREWGz2e7cuTN+A5cWZ2ZmEpFMJnvjjTdyc3Pt"
+			"dvupU6du3brl9QAoMoB4IcccCwkJSU9PJyK1Wu3yrQlbzJDJZCtWrFi+fDkRVVdXX79+3esBUGQA"
+			"kUKOuTfhsvDMdRQTttjxU/n5+atXryaimpqa2tpar9czRpEBxAg59pP6+nrmOooJW+ywePHiNWvW"
+			"EFFdXR2zvXdQZADRQY79xGKxEFF6erqbFjOys7OZK95sNpsvr4giA4gLcuwnM2bMIKLIyEg2GzPn"
+			"nVl+nMSNyYp88ODBoaEhH3cOANzCdcfcc3PO12AwdHZ2TrkHg8HA1TAu1yP3Uu9FujjwZGDvvr1x"
+			"sXFcvYrXLE9Nw51dGe2hxfcS5DTBOXd/z2MyDXd1BYWGhickTPgeAPiB1Wy2mEx8T8ED5JhjZrP5"
+			"/v37RDQ4OOj8vE6nI6LGxsbGxkaWu2J+xHdMkQ8dOqTX6y/Qhbt0l4jIRh3dHZzs31dKejCHNNe7"
+			"0x/wPYkTQ3c33yOABxQqlVyhcL/NqNEom+SeMwKBHHPJYDBUVlYODQ0FBQXNmzfP+VtKpZKIVCoV"
+			"m/MVer3eaDQyP8KJ1tZWvV5PRBrScLVPDsmtFD3A9xAgXnL5a/v2hcfHT7lhfHa2H8bxGnLMmYGB"
+			"gYqKCp1OFxUVtW3btujoaOfvMueO586d6+Zj1g7V1dW3bt1ifsR3DQ0NJ0+eZB4XUmEKpehIl/Rc"
+			"UrYA/mna7bb+e9rsJ3Gxf3a9TJsXdputT6sNj4tTjrtsHIRJJpe/8PrrEc89x/cgHECOWbFarUTU"
+			"2tpaXV3teNJut/f19YWGhkZERIyMjDQ1NVkslvj4eDa3EPIbpsWO09lykqdTel5eXlFREb+D/ehl"
+			"vgcAEAbkmJX+/n7mT+bBZOLj43fs2OH7FRFccWkxo6CgoLCwkKeJAGBSyDErMTExRJScnLxw4ULn"
+			"57VarVarJaLMzMxZs2Z5evv5aYUWA4iLUNohcMw1TxqNJicnx/n5nJyca9eunTlz5u7du0VFRWgx"
+			"AHgNHwPx1ZIlS958800iOn/+vC83muAQWgwgRsgxB3JycjZs2CCTyerq6k6fPs1vkdFiAJESyi/X"
+			"YrdgwYKQkJAvvvjixo0bZrN5zZo1cjkP/9WhxQGOzaGAm08benok4csHF6d8rQD8VCRyzJmMjIyS"
+			"kpKqqqrbt2+bzeaNGzdOtuz0NEGLA9zNmzfPnTtncvvx4vj4+E2bNo2/GTcRHTx48PHjxx69YkxM"
+			"zJ49exRTfRzOxejo6OHDh3t7e91vNmfOnM2bNwdUlHGyghXmUHfKf3ZpaWnbt28PDQ1taGh4+PCh"
+			"F3vwYmMGWgyXLl1y32Ii6u7uvn379vjn29raPG0xEfX29lZUVIyOjrL/kdHR0ePHj0/ZYiLSarU1"
+			"NTVCeDPGb4I+/PBDvmfgzaVLlxyPZ86c6XLVhLOYmJiQkJBFixZN+Um5yMjIn/3sZxEREVlZWc7n"
+			"K9jvgYji4+OVSmV2djbL42u0GIhIr9d3dExxH5IZM2YUFhZGRES4PD88POzdqmB6vf7Ro0eZmZls"
+			"/q2Ojo5WVVW1tray3HlHR4fJZEpPTw+QY2RZQP3n4+Kjjz5yPE5ISHj33Xd5HMZraDE46HS6kZER"
+			"5vE///lP5lNLy5Ytc9xBRaPRhISEjP/Bzs7Ow4cPM4/37Nkz5QtZLJazZ88+evSI+TI1NXXLli3u"
+			"f59jWtzS0sJ8mZSUtHLlygmvDTUYDF9//bXjHrCvvPLK6tWrA6HIOHcsbmgxOFOr1Y7zwo44RkVF"
+			"JSYmst8Jy423b9/uyGtLS0tVVZWbIru0OC0tbfPmzW7yvXv37rKyMuamhsyyOIFQZJw7FjG0GHik"
+			"UCi2bNnCrFxDRC0tLQcOHJhwCRu73e5Ri4koIiJix44djv9a6uvrP//8c07HFyLkWKzQYuCdS5EH"
+			"BwevXbs2frPW1laPWsxwKXJzczOzhIKEIceihBaDQDBFdpyPnvDoODIykjnPwL7FDKbIji/NZrOv"
+			"4wobzh2LD1oMgqJQKKKjo7u7u4lIpVKN30CtVr/33ns6nS41NdXT87/OF4Hw8tEqf0KORQYtBjFy"
+			"fo8RJiPx/20kBi0GkDDkWDTQYghA7e3tjsc4dxwo9Hq988JLQjM4OPjggetKy2gxSFt7e3tFRYXj"
+			"S41GiAvvcgg5HmM0Gr37kChf0GKQNqbFjiPigoIC4SxBOU2QY1FCi0HaXFq8du3al156id+R/CCg"
+			"zx0LZy0ljyxbtgwtBkHh9tY3gdliCvAcv/7666L7FPyCBQteffVVvqcA+JHJZBoYGGAeG41GH/cW"
+			"sC2mAD9ZsWjRogULFnR0dAQHBwv/CnOz2RwTExMWFsb3IAA/MhgMzrc89nHJhUBuMQV4jolIoVDM"
+			"nj2b7ykARGlwcPD48eOOQ+Po6OjFixd7vbcAbzEhxwDgnZ6enuPHjw8PDzNfZmVlrVu3zuvfMtFi"
+			"Qo4BwAWbC/ANBkNzc7PVamW+/PnPf+7LOzFoMQM5BgByXu/O0wvwCwsL8/Pz0WLfIccA4P2VaitX"
+			"rszNzfX6ddFiZ8gxAJDzAnqLFi2acvunT58ODg6+/PLLvtQTLXaBHAPATxQXF/vhVdDi8YR+sS0A"
+			"OOh0uocPH0pg9Xe0eEI4OgYQB51O99e//tVut7NZ4mh0dJTDT8pxCy2eDI6OAcRhYGCAOS5+8OBB"
+			"VVWV87UQLkZHR6uqqhy9E9S9WdBiN5BjAHFIS0tLS0tjHre0tExWZKbFjpWbo6KiXnnlFf9N6RZa"
+			"7B5yDCAOMpls8+bNqampzJcTFtmlxWlpab/61a8Ecj8WtHhKAvotBgDcUygUW7ZscQS3paWlvLx8"
+			"1apVzOkIi8Vy9uzZR48eMRuzOcXsN62trZWVlY7/PAoKCmJjYzs7O1n+eHBwcExMjOjuv+gpmQTe"
+			"pQUIKC6HwBPytMWdnZ2HDx9mHn/wwQe+jvhT/f39+/fv93EnycnJO3bskHaRBfFbDACwxxwjP//8"
+			"85NtkJKS4ulxsVKpZB7MmDHD1/nG+e9//+v7Ttra2gwGg+/7ETLkGEB8FArFtm3bYmJixn8rNja2"
+			"pKTE03MUarV68eLF4eHh07G4wZIlS1QqlS97CA4OXrJkieTXysPJCgAAQcDRMQCAICDHAACCgBwD"
+			"AAgCcgwAIAjIMQCAICDHAACCgBwDAAgCcgwAIAjIMQCAICDHAACCgBwDAAgCcgwAIAjIMQCAICDH"
+			"AACCgBwDAAgCcgwAIAjIMQCAICDHAACC8P9FoxsOaeCU/wAAAABJRU5ErkJggg=="
+		)
+	)
 	(label "TOP"
 		(at 105.41 144.78 0)
 		(effects
@@ -5984,28 +6178,6 @@
 			)
 		)
 	)
-	(global_label "RIGHT_LEG_DRIVE"
-		(shape input)
-		(at 374.65 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fb55402-c98d-4773-ac22-1e5be2ba1ea8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 393.8428 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SBU1"
 		(shape output)
 		(at 367.03 93.98 180)
@@ -6072,6 +6244,28 @@
 			)
 		)
 	)
+	(global_label "RIGHT_LEG_DRIVE"
+		(shape input)
+		(at 379.73 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2513b27c-b2ec-4a7f-8a42-5e94f54af298")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.9228 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "2.5V"
 		(shape input)
 		(at 210.82 52.07 180)
@@ -6090,28 +6284,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POSITIVE_INPUT"
-		(shape input)
-		(at 374.65 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e50839e-86a1-4ab0-89a4-327aaae3d0fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.331 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6270,7 +6442,7 @@
 			)
 		)
 	)
-	(global_label "POSITIVE_INPUT"
+	(global_label "LEFT_ARM"
 		(shape input)
 		(at 34.29 36.83 180)
 		(fields_autoplaced yes)
@@ -6282,34 +6454,12 @@
 		)
 		(uuid "717bb97d-f9a9-4c85-9876-eaa70155c4b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.609 36.83 0)
+			(at 22.2939 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NEGATIVE_INPUT"
-		(shape input)
-		(at 374.65 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "871c3da0-376b-41b1-9b30-2a2e5d765600")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.7543 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6512,7 +6662,7 @@
 			)
 		)
 	)
-	(global_label "NEGATIVE_INPUT"
+	(global_label "RIGHT_ARM"
 		(shape input)
 		(at 34.29 80.01 180)
 		(fields_autoplaced yes)
@@ -6524,12 +6674,34 @@
 		)
 		(uuid "b59d3cb5-e7ba-4872-8db1-4e0649d0a850")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1857 80.01 0)
+			(at 21.0843 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT_ARM"
+		(shape input)
+		(at 379.73 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdd91e07-d225-4432-bea9-67a1494c153c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.9357 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6684,6 +6856,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT_ARM"
+		(shape input)
+		(at 379.73 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5e126cc-b7e9-4fd1-8d2d-fcf1016ee40a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.7261 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7106,6 +7300,70 @@
 			(project "EEG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 364.49 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3764e9-1df8-4553-89ea-56bfbfbc7b81")
+		(property "Reference" "H3"
+			(at 367.03 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 367.03 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 364.49 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9149,6 +9407,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 370.84 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cdd77bc-0b8a-47ea-9059-5253b90a2784")
+		(property "Reference" "J2"
+			(at 368.935 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 368.935 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PEKG:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/1628/sj1_352xn-3510807.pdf"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "e20b3866-a98f-4a57-bf5b-8fb63d2fc4b2")
+		)
+		(pin "S"
+			(uuid "b205d965-554e-43d2-aae0-e162a0fa1778")
+		)
+		(pin "R"
+			(uuid "7c7655be-c996-4088-9392-a4dd0cc7d2b1")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 162.56 0)
 		(unit 1)
@@ -10341,25 +10670,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a7")
+			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a8")
 		)
 		(pin "3"
-			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee00")
+			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee01")
 		)
 		(pin "2"
-			(uuid "610bdb32-3245-4dc8-a12a-582529ec28cf")
+			(uuid "610bdb32-3245-4dc8-a12a-582529ec28d0")
 		)
 		(pin "5"
-			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef55")
+			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef56")
 		)
 		(pin "4"
 			(uuid "f182ca1b-7085-4270-92ca-0a62a6634b37")
 		)
 		(pin "1"
-			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721d")
+			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721e")
 		)
 		(pin "7"
-			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee15")
+			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee16")
 		)
 		(pin "8"
 			(uuid "72cdd6c7-d79d-40b5-9bb1-572f02fe79bc")
@@ -11125,7 +11454,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a6")
+			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a9")
 		)
 		(pin "3"
 			(uuid "2be60b88-83d5-4373-8676-d78791066e6f")
@@ -11134,19 +11463,19 @@
 			(uuid "ae8a0129-d05f-4b62-a0e4-7aa253e311ac")
 		)
 		(pin "5"
-			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef54")
+			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef57")
 		)
 		(pin "4"
-			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135c")
+			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135e")
 		)
 		(pin "1"
 			(uuid "6a62a90b-54f2-49eb-9dc5-d90fcd00b925")
 		)
 		(pin "7"
-			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee14")
+			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee17")
 		)
 		(pin "8"
-			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d540367d")
+			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d540367f")
 		)
 		(instances
 			(project "PEKG"
@@ -12258,7 +12587,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a6")
+			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868aa")
 		)
 		(pin "3"
 			(uuid "92afa674-ebe9-41ff-9c0e-226914f5a01f")
@@ -12267,19 +12596,19 @@
 			(uuid "9e5571bc-b713-4571-8915-c04ad5170c1b")
 		)
 		(pin "5"
-			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef54")
+			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef58")
 		)
 		(pin "4"
-			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135c")
+			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135f")
 		)
 		(pin "1"
 			(uuid "3e5f7612-8313-4f95-87e8-41084151ba94")
 		)
 		(pin "7"
-			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee14")
+			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee18")
 		)
 		(pin "8"
-			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d540367d")
+			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d5403680")
 		)
 		(instances
 			(project "PEKG"
@@ -12420,6 +12749,70 @@
 			(project "EEG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 383.54 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7380b1a0-f8b2-466b-b83a-f01ec9a63e25")
+		(property "Reference" "H2"
+			(at 386.08 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 386.08 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 383.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 383.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13329,6 +13722,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 364.49 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89b32dda-3684-4232-b25f-42934ae80d4f")
+		(property "Reference" "H1"
+			(at 367.03 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 367.03 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 364.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G125")
 		(at 50.8 195.58 0)
 		(mirror y)
@@ -14018,73 +14475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 373.38 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ac77142-98a3-4917-8c84-750f2c60c6ab")
-		(property "Reference" "#PWR059"
-			(at 379.73 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca15c04e-0168-424a-ba1a-cbc674ee71a5")
-		)
-		(instances
-			(project "EEG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 54.61 254 0)
 		(unit 1)
@@ -14287,17 +14677,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 364.49 140.97 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole")
+		(at 383.54 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a639dd36-d1b0-4ddb-a36f-271d55bda20b")
-		(property "Reference" "J3"
-			(at 361.95 140.9699 0)
+		(fields_autoplaced yes)
+		(uuid "a659e5e8-81b3-4c67-aafb-95f68da7b68f")
+		(property "Reference" "H4"
+			(at 386.08 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,8 +14695,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Klema"
-			(at 361.95 143.5099 0)
+		(property "Value" "MountingHole"
+			(at 386.08 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,8 +14704,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 364.49 140.97 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 383.54 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 140.97 0)
+			(at 383.54 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,25 +14722,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 140.97 0)
+		(property "Description" ""
+			(at 383.54 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7cb5c62a-c4e2-44ae-8881-0ba0c4561267")
-		)
-		(pin "2"
-			(uuid "06ce3075-1d93-4585-8572-bc0fdc3118ee")
 		)
 		(instances
-			(project "EEG"
+			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "J3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -15147,25 +15531,25 @@
 			(uuid "0eae1228-97fa-4488-9298-a70655017744")
 		)
 		(pin "3"
-			(uuid "da7a57b1-10ee-43a5-8238-278f8d25edfe")
+			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee02")
 		)
 		(pin "2"
-			(uuid "610bdb32-3245-4dc8-a12a-582529ec28cd")
+			(uuid "610bdb32-3245-4dc8-a12a-582529ec28d1")
 		)
 		(pin "5"
 			(uuid "b71a71e4-9a9a-4106-9001-2dcc4282a38d")
 		)
 		(pin "4"
-			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135d")
+			(uuid "525cbf3b-bc62-4e12-a784-9fd878d81360")
 		)
 		(pin "1"
-			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721b")
+			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721f")
 		)
 		(pin "7"
 			(uuid "ccd2b14f-a87b-47a1-a3a5-c31918368a75")
 		)
 		(pin "8"
-			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d540367e")
+			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d5403681")
 		)
 		(instances
 			(project "PEKG"
@@ -16762,25 +17146,25 @@
 			(uuid "20040ee7-7ba8-42e6-86d6-4ab5d1bf520c")
 		)
 		(pin "3"
-			(uuid "da7a57b1-10ee-43a5-8238-278f8d25edfe")
+			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee03")
 		)
 		(pin "2"
-			(uuid "610bdb32-3245-4dc8-a12a-582529ec28cd")
+			(uuid "610bdb32-3245-4dc8-a12a-582529ec28d2")
 		)
 		(pin "5"
 			(uuid "17857dba-2fa3-4c15-8f98-c1d394a2addd")
 		)
 		(pin "4"
-			(uuid "525cbf3b-bc62-4e12-a784-9fd878d8135d")
+			(uuid "525cbf3b-bc62-4e12-a784-9fd878d81361")
 		)
 		(pin "1"
-			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721b")
+			(uuid "3862f81b-fc86-4caf-9e94-0396e77d7220")
 		)
 		(pin "7"
 			(uuid "8d9ef6f2-048a-4c2e-bf20-8f5cf7e5ab4d")
 		)
 		(pin "8"
-			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d540367e")
+			(uuid "3fc55ab9-76e9-4efe-a339-1ae9d5403682")
 		)
 		(instances
 			(project "PEKG"
@@ -17286,76 +17670,6 @@
 			(project "EEG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 364.49 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfb2866e-803b-438c-9286-6bb8c9d5dc13")
-		(property "Reference" "J2"
-			(at 361.95 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Klema"
-			(at 361.95 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 364.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52bb4801-e5ed-41c1-80d7-d7a88fd5180a")
-		)
-		(pin "2"
-			(uuid "3589c6ec-99b0-4b4b-8389-eda36ac2ebd6")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -18600,25 +18914,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868a7")
+			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868ab")
 		)
 		(pin "3"
-			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee00")
+			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee04")
 		)
 		(pin "2"
-			(uuid "610bdb32-3245-4dc8-a12a-582529ec28cf")
+			(uuid "610bdb32-3245-4dc8-a12a-582529ec28d3")
 		)
 		(pin "5"
-			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef55")
+			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef59")
 		)
 		(pin "4"
 			(uuid "fe3793e0-7bc1-4071-aa63-5bb59394c24c")
 		)
 		(pin "1"
-			(uuid "3862f81b-fc86-4caf-9e94-0396e77d721d")
+			(uuid "3862f81b-fc86-4caf-9e94-0396e77d7221")
 		)
 		(pin "7"
-			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee15")
+			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee19")
 		)
 		(pin "8"
 			(uuid "d103fc63-76d3-4300-b6f4-c16b3bb58d6f")
