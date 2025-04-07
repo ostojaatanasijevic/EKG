@@ -28,56 +28,97 @@ Source Step = 3.0303%
 Source Step = 33.3333%
 Source Step = 63.6364%
 vernier = 0.25
-Source Step = 60.9848%
-Source Step = 61.4583%
-Source Step = 61.9318%
-Source Step = 62.4053%
-Source Step = 62.8788%
-vernier = 0.0234375
-Source Step = 63.518%
-Source Step = 64.2282%
-Source Step = 64.9384%
-Source Step = 65.6487%
-Source Step = 66.3589%
-vernier = 0.0351563
-Source Step = 67.2822%
-Source Step = 68.3475%
-Source Step = 69.4129%
-Source Step = 70.4782%
-Source Step = 71.5436%
-vernier = 0.0527344
-Source Step = 72.8752%
-Source Step = 74.4732%
-Source Step = 76.0713%
-Source Step = 77.6693%
-Source Step = 79.2673%
-vernier = 0.0791016
-Source Step = 81.1849%
-Source Step = 83.5819%
-Source Step = 85.9789%
-Source Step = 88.3759%
-Source Step = 90.773%
-vernier = 0.118652
-Source Step = 93.5295%
-Source Step = 97.1251%
+Source Step = 60.6238%
+Source Step = 60.6534%
+Source Step = 60.683%
+Source Step = 60.7126%
+Source Step = 60.7422%
+vernier = 0.00146484
+Source Step = 60.7762%
+Source Step = 60.8206%
+Source Step = 60.865%
+Source Step = 60.9094%
+Source Step = 60.9538%
+vernier = 0.00219727
+Source Step = 61.0026%
+Source Step = 61.0692%
+Source Step = 61.1358%
+Source Step = 61.2024%
+Source Step = 61.2689%
+vernier = 0.0032959
+Source Step = 61.3389%
+Source Step = 61.4387%
+Source Step = 61.5386%
+Source Step = 61.6385%
+Source Step = 61.7384%
+Source Step = 61.8382%
+vernier = 0.00494385
+Source Step = 61.988%
+Source Step = 62.1379%
+Source Step = 62.2877%
+Source Step = 62.4375%
+Source Step = 62.5873%
+vernier = 0.00741577
+Source Step = 62.8045%
+Source Step = 63.0292%
+Source Step = 63.254%
+Source Step = 63.4787%
+Source Step = 63.7034%
+vernier = 0.0111237
+Source Step = 64.018%
+Source Step = 64.3551%
+Source Step = 64.6922%
+Source Step = 65.0293%
+Source Step = 65.3663%
+vernier = 0.0166855
+Source Step = 65.8214%
+Source Step = 66.327%
+Source Step = 66.8326%
+Source Step = 67.3383%
+Source Step = 67.8439%
+vernier = 0.0250282
+Source Step = 68.5012%
+Source Step = 69.2596%
+Source Step = 70.0181%
+Source Step = 70.7765%
+Source Step = 71.5349%
+vernier = 0.0375423
+Source Step = 72.483%
+Source Step = 73.6206%
+Source Step = 74.7582%
+Source Step = 75.8959%
+Source Step = 77.0335%
+vernier = 0.0563135
+Source Step = 78.3987%
+Source Step = 80.1052%
+Source Step = 81.8117%
+Source Step = 83.5181%
+Source Step = 85.2246%
+vernier = 0.0844703
+Source Step = 87.187%
+Source Step = 89.7467%
+Source Step = 92.3064%
+Source Step = 94.8662%
+Source Step = 97.4259%
+vernier = 0.126705
+Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sun Mar 30 10:03:15 2025
-Total elapsed time: 3.523 seconds.
+Date: Sun Apr 06 21:40:08 2025
+Total elapsed time: 2.542 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 52206
-traniter = 49152
-tranpoints = 24577
-accept = 24577
+totiter = 84772
+traniter = 80036
+tranpoints = 40019
+accept = 40019
 rejected = 0
-matrix size = 92
-fillins = 454
+matrix size = 118
+fillins = 527
 solver = Normal
-Thread vector: 9.2/4.2[8] 3.2/4.3[1] 1.4/2.6[1] 0.2/1.4[1]  2592/500
-Matrix Compiler1:    2343 opcodes  4.0/[1.6]/3.3
-Matrix Compiler2: 16.48 KB object code size  0.9/1.1/[0.7]
-
+Thread vector: 11.4/5.9[8] 4.8/3.6[6] 2.0/3.1[1] 0.3/1.4[1]  2592/500
+Matrix Compiler1:    2398 opcodes  4.7/2.1/[2.1]
+Matrix Compiler2:    1371 opcodes
