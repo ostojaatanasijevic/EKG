@@ -1,0 +1,5 @@
+*-backups
+gerbers
+gerbers.zip
+*.raw
+*.lck
