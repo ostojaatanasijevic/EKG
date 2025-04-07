@@ -1,4 +1,4 @@
-Circuit: * C:\users\ostoja\Desktop\Petnica\PEKG\simulations\NCS_v2.asc
+Circuit: * Z:\home\ostoja\Petnica\PEKG\simulations\NCS_v2.asc
 
 WARNING: Less than two connections to node 3.75V.  This node is used by V3.
 WARNING: Less than two connections to node 1.25V.  This node is used by V4.
@@ -28,97 +28,76 @@ Source Step = 3.0303%
 Source Step = 33.3333%
 Source Step = 63.6364%
 vernier = 0.25
-Source Step = 60.6238%
-Source Step = 60.6534%
-Source Step = 60.683%
-Source Step = 60.7126%
-Source Step = 60.7422%
-vernier = 0.00146484
-Source Step = 60.7762%
-Source Step = 60.8206%
-Source Step = 60.865%
-Source Step = 60.9094%
-Source Step = 60.9538%
-vernier = 0.00219727
-Source Step = 61.0026%
-Source Step = 61.0692%
-Source Step = 61.1358%
-Source Step = 61.2024%
-Source Step = 61.2689%
-vernier = 0.0032959
-Source Step = 61.3389%
-Source Step = 61.4387%
-Source Step = 61.5386%
-Source Step = 61.6385%
-Source Step = 61.7384%
-Source Step = 61.8382%
-vernier = 0.00494385
-Source Step = 61.988%
-Source Step = 62.1379%
-Source Step = 62.2877%
-Source Step = 62.4375%
-Source Step = 62.5873%
-vernier = 0.00741577
-Source Step = 62.8045%
-Source Step = 63.0292%
-Source Step = 63.254%
-Source Step = 63.4787%
-Source Step = 63.7034%
-vernier = 0.0111237
-Source Step = 64.018%
-Source Step = 64.3551%
-Source Step = 64.6922%
-Source Step = 65.0293%
-Source Step = 65.3663%
-vernier = 0.0166855
-Source Step = 65.8214%
-Source Step = 66.327%
-Source Step = 66.8326%
-Source Step = 67.3383%
-Source Step = 67.8439%
-vernier = 0.0250282
-Source Step = 68.5012%
-Source Step = 69.2596%
-Source Step = 70.0181%
-Source Step = 70.7765%
-Source Step = 71.5349%
-vernier = 0.0375423
-Source Step = 72.483%
-Source Step = 73.6206%
-Source Step = 74.7582%
-Source Step = 75.8959%
-Source Step = 77.0335%
-vernier = 0.0563135
-Source Step = 78.3987%
-Source Step = 80.1052%
-Source Step = 81.8117%
-Source Step = 83.5181%
-Source Step = 85.2246%
-vernier = 0.0844703
-Source Step = 87.187%
-Source Step = 89.7467%
-Source Step = 92.3064%
-Source Step = 94.8662%
-Source Step = 97.4259%
-vernier = 0.126705
-Source Step = 100%
+Source Step = 60.6889%
+Source Step = 60.8073%
+Source Step = 60.9257%
+Source Step = 61.044%
+Source Step = 61.1624%
+vernier = 0.00585938
+Source Step = 61.3163%
+Source Step = 61.4938%
+Source Step = 61.6714%
+Source Step = 61.849%
+Source Step = 62.0265%
+vernier = 0.00878906
+Source Step = 62.2485%
+Source Step = 62.5148%
+Source Step = 62.7811%
+Source Step = 63.0475%
+Source Step = 63.3138%
+vernier = 0.0131836
+Source Step = 63.6334%
+Source Step = 64.0329%
+Source Step = 64.4324%
+Source Step = 64.8319%
+Source Step = 65.2314%
+vernier = 0.0197754
+Source Step = 65.6908%
+Source Step = 66.2901%
+Source Step = 66.8894%
+Source Step = 67.4886%
+Source Step = 68.0879%
+vernier = 0.0296631
+Source Step = 68.747%
+Source Step = 69.6459%
+Source Step = 70.5448%
+Source Step = 71.4437%
+Source Step = 72.3426%
+vernier = 0.0444946
+Source Step = 73.2864%
+Source Step = 74.6347%
+Source Step = 75.983%
+Source Step = 77.3314%
+Source Step = 78.6797%
+Source Step = 80.028%
+vernier = 0.0667419
+Source Step = 82.0505%
+Source Step = 84.073%
+Source Step = 86.0955%
+Source Step = 88.1179%
+Source Step = 90.1404%
+vernier = 0.100113
+Source Step = 93.073%
+Source Step = 96.1067%
+Source Step = 99.1405%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sun Apr 06 21:40:08 2025
-Total elapsed time: 2.542 seconds.
+Date: Mon Apr 07 21:12:59 2025
+Total elapsed time: 11.619 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 84772
+method = modified trap
+totiter = 83569
 traniter = 80036
 tranpoints = 40019
 accept = 40019
 rejected = 0
 matrix size = 118
-fillins = 527
+fillins = 523
 solver = Normal
-Thread vector: 11.4/5.9[8] 4.8/3.6[6] 2.0/3.1[1] 0.3/1.4[1]  2592/500
-Matrix Compiler1:    2398 opcodes  4.7/2.1/[2.1]
-Matrix Compiler2:    1371 opcodes
+Thread vector: 37.3/22.3[5] 20.0/14.6[5] 6.7/5.5[4] 0.9/89.2[1]  2592/500
+Matrix Compiler1: 45.24 KB object code size  14.3/7.8/[7.6]
+Matrix Compiler2: 19.69 KB object code size  5.0/5.2/[1.3]
+
