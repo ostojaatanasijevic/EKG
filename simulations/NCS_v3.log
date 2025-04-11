@@ -43,17 +43,22 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 vernier = 0.5
 Gmin = 3.64963e-005
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 7.04637e-006
+vernier = 1
+vernier = 0.5
 vernier = 0.25
 vernier = 0.125
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
+Gmin = 3.85936e-006
 vernier = 0.0078125
 vernier = 0.00390625
 vernier = 0.00195313
 vernier = 0.000976563
 vernier = 0.000488281
-Gmin = 4.10584e-005
 Gmin = 0
 Gmin stepping failed
 
@@ -131,43 +136,142 @@ Source Step = 36.3028%
 Source Step = 38.0093%
 vernier = 0.0844703
 Source Step = 40.2277%
-Source Step = 42.7874%
-Source Step = 45.3471%
-Source Step = 47.9068%
-Source Step = 50.4665%
-vernier = 0.126705
-Source Step = 53.6661%
-Source Step = 57.5057%
-Source Step = 61.3452%
-Source Step = 65.1848%
-Source Step = 69.0244%
-vernier = 0.190058
-Source Step = 73.6318%
-Source Step = 79.3912%
-Source Step = 85.1505%
-Source Step = 90.9098%
-Source Step = 96.6692%
-vernier = 0.285087
-Source Step = 100%
+Source Step = 40.2557%
+Source Step = 40.2957%
+Source Step = 40.3357%
+Source Step = 40.3757%
+Source Step = 40.4157%
+vernier = 0.00197977
+Source Step = 40.4656%
+Source Step = 40.5256%
+Source Step = 40.5856%
+Source Step = 40.6456%
+Source Step = 40.7056%
+vernier = 0.00296966
+Source Step = 40.7776%
+Source Step = 40.8676%
+Source Step = 40.9576%
+Source Step = 41.0476%
+Source Step = 41.1376%
+vernier = 0.00445449
+Source Step = 41.2411%
+Source Step = 41.376%
+Source Step = 41.511%
+Source Step = 41.646%
+Source Step = 41.781%
+vernier = 0.00668173
+Source Step = 41.9295%
+Source Step = 42.132%
+Source Step = 42.3344%
+Source Step = 42.5369%
+Source Step = 42.7394%
+vernier = 0.0100226
+Source Step = 42.952%
+Source Step = 43.2557%
+Source Step = 43.5594%
+Source Step = 43.8631%
+Source Step = 44.1668%
+Source Step = 44.4706%
+vernier = 0.0150339
+Source Step = 44.9261%
+Source Step = 45.3817%
+Source Step = 45.8373%
+Source Step = 46.2929%
+Source Step = 46.7484%
+vernier = 0.0225508
+Source Step = 47.409%
+Source Step = 48.0924%
+Source Step = 48.7757%
+Source Step = 49.4591%
+Source Step = 50.1424%
+vernier = 0.0338263
+Source Step = 51.0991%
+Source Step = 52.1242%
+Source Step = 53.1492%
+Source Step = 54.1743%
+Source Step = 55.1993%
+vernier = 0.0507394
+Source Step = 56.5831%
+Source Step = 58.1207%
+Source Step = 59.6582%
+Source Step = 61.1958%
+Source Step = 62.7333%
+vernier = 0.0761091
+Source Step = 64.7322%
+Source Step = 67.0385%
+Source Step = 69.3448%
+Source Step = 71.6512%
+Source Step = 73.9575%
+vernier = 0.114164
+Source Step = 76.8404%
+Source Step = 80.2999%
+Source Step = 83.7594%
+Source Step = 87.2189%
+Source Step = 90.6784%
+Source Step = 90.7163%
+Source Step = 90.7703%
+Source Step = 90.8244%
+Source Step = 90.8784%
+Source Step = 90.9325%
+Source Step = 90.9865%
+vernier = 0.00267571
+Source Step = 91.0514%
+Source Step = 91.1325%
+Source Step = 91.2136%
+Source Step = 91.2947%
+Source Step = 91.3757%
+vernier = 0.00401357
+Source Step = 91.469%
+Source Step = 91.5906%
+Source Step = 91.7122%
+Source Step = 91.8339%
+Source Step = 91.9555%
+vernier = 0.00602035
+Source Step = 92.0893%
+Source Step = 92.2717%
+Source Step = 92.4541%
+Source Step = 92.6366%
+Source Step = 92.819%
+vernier = 0.00903052
+Source Step = 93.0106%
+Source Step = 93.2842%
+Source Step = 93.5579%
+Source Step = 93.8315%
+Source Step = 94.1052%
+Source Step = 94.3788%
+vernier = 0.0135458
+Source Step = 94.7893%
+Source Step = 95.1998%
+Source Step = 95.6103%
+Source Step = 96.0207%
+Source Step = 96.4312%
+vernier = 0.0203187
+Source Step = 97.0264%
+Source Step = 97.6421%
+Source Step = 98.2578%
+Source Step = 98.8736%
+Source Step = 99.4893%
+vernier = 0.030478
 Source stepping succeeded in finding the operating point.
 
 Changing Tseed to 5e-011
+Heightened Def Con from 5e-011 to 1.05e-009
 
-Date: Tue Apr 08 01:36:11 2025
-Total elapsed time: 3.625 seconds.
+Date: Tue Apr 08 22:00:46 2025
+Total elapsed time: 4.195 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 86840
-traniter = 81576
-tranpoints = 40016
-accept = 40015
-rejected = 0
+totiter = 91642
+traniter = 81667
+tranpoints = 40021
+accept = 40011
+rejected = 10
 matrix size = 239
-fillins = 356
+fillins = 488
 solver = Normal
-Thread vector: 19.8/7.8[6] 5.2/3.3[6] 4.0/3.0[4] 0.6/1.9[1]  2592/500
-Matrix Compiler1: 31.92 KB object code size  4.3/1.9/[1.6]
-Matrix Compiler2: 28.01 KB object code size  1.8/2.0/[1.5]
+Thread vector: 14.4/9.7[6] 5.1/3.6[6] 4.2/2.6[6] 0.5/1.3[1]  2592/500
+Matrix Compiler1: 43.53 KB object code size  4.9/1.7/[1.7]
+Matrix Compiler2: 30.36 KB object code size  2.3/2.6/[1.2]
 
