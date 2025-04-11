@@ -3,3 +3,4 @@ gerbers
 gerbers.zip
 *.raw
 *.lck
+*.npy

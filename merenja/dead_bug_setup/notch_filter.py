@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-data = np.load("100n_svuda_1k_2k_in_100k_diff_twisted_pair.npy", allow_pickle=True)[()]
+data = np.load("sa_srca.npy", allow_pickle=True)[()]
 ch = data["CHAN4"][1]
 timestep = data["CHAN4"][0]["xincrement"]
 time = np.linspace(0, timestep*len(ch), len(ch))
 
-D = 200
+D = 500
 ch = signal.decimate(ch, D)
 time = signal.decimate(time, D)
 
@@ -16,7 +16,7 @@ fs = 1 / timestep / D  # Sample frequency (Hz)
 f0 = 50.0  # Frequency to be removed from signal (Hz)
 Q = 2  # Quality factor
 # Design notch filter
-b, a = signal.iirdesign([40, 60], [48,52], 1, 80, fs=fs)
+b, a = signal.iirdesign([40, 70], [48,62], 1, 60, fs=fs)
 #b, a = signal.iirdesign(38, 48, 1, 60, fs=fs)
 print(b)
 print(a)
