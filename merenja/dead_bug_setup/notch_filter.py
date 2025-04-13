@@ -16,7 +16,7 @@ fs = 1 / timestep / D  # Sample frequency (Hz)
 f0 = 50.0  # Frequency to be removed from signal (Hz)
 Q = 2  # Quality factor
 # Design notch filter
-b, a = signal.iirdesign([40, 70], [48,62], 1, 60, fs=fs)
+b, a = signal.iirdesign([45, 55], [49,51], 5, 80, fs=fs)
 #b, a = signal.iirdesign(38, 48, 1, 60, fs=fs)
 print(b)
 print(a)
