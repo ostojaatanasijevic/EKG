@@ -1,0 +1,22 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C13, C15, C16, C17, C18, C19, C20, C24",0603,8,10n,C57112
+"C14, C23, C25, C26, C27, C28",0603,6,10u,C96446
+"C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45",0603,14,100n,C14663
+"D1, D2",SOT-23,2,BAV99,
+"H1, H2, H3, H4",MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom,4,MountingHole,
+J1,USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles,1,USB_C_Receptacle,
+J2,Jack_3.5mm_CUI_SJ1-3523N_Horizontal,1,AudioJack3,
+"JP1, JP3, JP6",SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,3,Jumper_2_Bridged,
+"JP2, JP4, JP5",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,3,Jumper_2_Open,
+"R10, R11, R26, R27, R30, R31, R41",0603,7,10k,C25804
+R13,0603,1,1,C22936
+"R18, R19, R20, R21, R22, R24, R28, R29, R51, R52, R53, R54, R55",0603,13,100k,C25803
+"R23, R32",0603,2,100k,
+"R33, R34, R39, R56",0603,4,10Meg,C7250
+"R36, R37, R38, R40",0603,4,330k,C23137
+"R42, R43, R44, R45, R46",0603,5,1k,C21190
+"R47, R48, R49, R50",0603,4,20k,C4184
+"U1, U2",SOIC-8_3.9x4.9mm_P1.27mm,2,TL072,C6961
+"U10, U11, U9",SOT-23-5_HandSoldering,3,74LVC1G125,
+"U12, U13, U8",OnSemi_Micro8,3,NCS21802DMR2G,
+"U5, U6, U7",SOT-23-6,3,TS5A63157DBV,
