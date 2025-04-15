@@ -3850,6 +3850,17 @@
 		)
 		(uuid "e91b82f3-56d2-4564-94a4-0a07748295e8")
 	)
+	(text "Single chip instrumentation\non bottom layer?\n"
+		(exclude_from_sim no)
+		(at 70.104 102.362 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ea749449-521f-4bbe-9b52-b9998d7d66f4")
+	)
 	(text "EKG differential input and leg drive"
 		(exclude_from_sim no)
 		(at 47.498 15.24 0)
@@ -3859,6 +3870,17 @@
 			)
 		)
 		(uuid "ed2f56b2-c564-4f6b-acae-1289c9b8f338")
+	)
+	(text "Trimpot za CMRR?"
+		(exclude_from_sim no)
+		(at 105.41 23.876 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ee72d99b-4b57-4756-9acc-616b06d4f730")
 	)
 	(text "Common mode change"
 		(exclude_from_sim no)
