@@ -3227,7 +3227,7 @@
 	)
 	(text "DOUBLE CHECK VREDNOSTI"
 		(exclude_from_sim no)
-		(at 251.968 337.566 0)
+		(at 229.87 263.144 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3269,7 +3269,7 @@
 	)
 	(text "PRERAČUNATI PROPUSNE OPSEGE"
 		(exclude_from_sim no)
-		(at 255.778 329.692 0)
+		(at 233.68 255.27 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3307,6 +3307,17 @@
 			)
 		)
 		(uuid "fc691de9-a0a3-4fb9-88a5-e7047b7674e6")
+	)
+	(text "MOŽDA DODATI POTENCIOMETAR"
+		(exclude_from_sim no)
+		(at 92.456 259.334 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ff1aecc4-5446-4402-b4be-d97142f9bd74")
 	)
 	(text_box "Input voltage range: 10 uV - 5 mV"
 		(exclude_from_sim no)
@@ -11865,7 +11876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA"
+		(property "Footprint" "PEKG:battery_holder"
 			(at 21.59 195.326 90)
 			(effects
 				(font
