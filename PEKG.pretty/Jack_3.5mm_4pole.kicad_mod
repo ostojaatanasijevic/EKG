@@ -1,0 +1,243 @@
+(footprint "Jack_3.5mm_4pole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
+	(tags "TRS audio jack stereo horizontal")
+	(property "Reference" "REF**"
+		(at 0 15.75 180)
+		(layer "F.SilkS")
+		(uuid "7243576b-1da2-4695-9252-8ce3da1be60e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_4pole"
+		(at 0 13.25 180)
+		(layer "F.Fab")
+		(uuid "9258a48d-28a0-4be5-8073-23bc2642398d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 3.25 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8f6bf98-25ed-4b1e-9e4d-b73be454142a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 3.25 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37dffa88-b7ac-46af-9367-04316af84ea1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -4.2 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "116056ce-b619-497c-a09e-9d3a34fd2e38")
+	)
+	(fp_line
+		(start -4.2 14.7)
+		(end -4.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43b404cb-3f9f-4559-a482-7c3a20b312ae")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f429e9a-bbaa-417d-8292-3e807b629d93")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88650da8-262b-48a1-9ee7-9321ef2959f0")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f8847e-63f1-4d60-b6d0-26b3d97acaf0")
+	)
+	(fp_line
+		(start 2.5 -0.05)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9562cce-dce1-4899-832a-fca832b7970a")
+	)
+	(fp_line
+		(start 2.5 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bddcea56-75dd-4cf5-926e-a6c7370720b0")
+	)
+	(fp_line
+		(start 4.2 0)
+		(end 4.2 14.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09265f89-3e69-4971-ad9e-5fa6a239cc2e")
+	)
+	(fp_line
+		(start 4.2 14.7)
+		(end -4.2 14.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "620b227c-120f-4923-be23-7f2b2b1558a0")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 14.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "63b55afe-1d9f-436b-8f37-d8a46c3b0898")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.75 180)
+		(layer "F.Fab")
+		(uuid "c6c63f9d-1eee-42b0-9831-6dfbab569c00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.6 180)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "df62691a-ac9e-40e8-b6de-d4ed05d25023")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 11.8 180)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0c46f5f8-5ebb-4ecf-9a14-f3e4c5313e59")
+	)
+	(pad "R1" thru_hole oval
+		(at 2.9 8.2)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a137dc89-577d-4523-b343-900845575b37")
+	)
+	(pad "R2" thru_hole oval
+		(at 2.9 5 180)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfd21b1a-1c18-48b5-9e10-adef06dee7ea")
+	)
+	(pad "S" thru_hole oval
+		(at -2.9 1.8)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b2bed8-7f83-4b34-aa56-99d7e9ba309f")
+	)
+	(pad "S" thru_hole oval
+		(at 2.9 1.8)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1273f0d8-1c2c-415e-9383-3b2e013c256c")
+	)
+	(pad "T" thru_hole oval
+		(at -2.9 12)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7654f27d-be0e-40c2-b96d-3cd8cb589ccf")
+	)
+	(pad "T" thru_hole oval
+		(at 2.9 12)
+		(size 1.6 2.3)
+		(drill oval 0.8 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f57f306a-451b-4820-b085-d30fed29210c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PEKG.pretty/Cliff FC68128.step"
+		(offset
+			(xyz 0 2.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

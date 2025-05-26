@@ -1,4 +1,4 @@
-3492857928044
+5244976380923
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69797,18 +69797,25 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PEKG
-Jack_3.5mm_CUI_SJ1-3523N_Horizontal
+Jack_3.5mm_4pole
 TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
 TRS audio jack stereo horizontal
 0
-3
-3
+6
+4
+PEKG
+Jack_3.5mm_CUI_SJ1-3525N_Horizontal
+TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf
+TRS audio jack stereo horizontal
+0
+5
+5
 PEKG
 battery_holder
 2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
 AA battery cell holder
 0
-2
+4
 2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
