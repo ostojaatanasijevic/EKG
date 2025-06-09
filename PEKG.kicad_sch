@@ -6749,7 +6749,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 152.4) (xy 369.57 152.4)
+			(xy 375.92 152.4) (xy 369.57 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7683,6 +7683,28 @@
 			)
 		)
 	)
+	(global_label "RIGHT_LEG_DRIVE"
+		(shape input)
+		(at 375.92 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f73d64c-b01f-48b4-9566-54f531d8683a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.1128 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_{ref}"
 		(shape input)
 		(at 303.53 91.44 180)
@@ -7903,28 +7925,6 @@
 			)
 		)
 	)
-	(global_label "RIGHT_LEG_DRIVE"
-		(shape input)
-		(at 373.38 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8a23685-b08f-4782-8501-e73e4a76ebbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.5728 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FIL_OUT"
 		(shape input)
 		(at 207.01 161.29 180)
@@ -8057,28 +8057,6 @@
 			)
 		)
 	)
-	(global_label "LEFT_ARM"
-		(shape input)
-		(at 375.92 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2772480-8922-42d0-84e1-526fcaa2a803")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.9161 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V_{ref}"
 		(shape output)
 		(at 58.42 148.59 0)
@@ -8158,6 +8136,28 @@
 		(uuid "f4ead138-2853-4d84-b250-918811ccee14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.8695 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT_ARM"
+		(shape input)
+		(at 375.92 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f830a3e0-c6d5-4a79-9e8c-8393617a341a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.9161 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PEKG:battery_holder"
+		(property "Footprint" "PEKG:MG_battery_holder"
 			(at 22.86 204.216 90)
 			(effects
 				(font

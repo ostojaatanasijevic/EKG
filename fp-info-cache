@@ -1,4 +1,4 @@
-5245064099660
+6994560221002
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69810,6 +69810,13 @@ TRS audio jack stereo horizontal
 0
 5
 5
+PEKG
+MG_battery_holder
+2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
+AA battery cell holder
+0
+4
+2
 PEKG
 battery_holder
 2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
