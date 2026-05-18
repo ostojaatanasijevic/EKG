@@ -658,6 +658,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -674,6 +682,10 @@
     [
       "6b6ace37-3aeb-4177-8f53-de4683f890d9",
       "Root"
+    ],
+    [
+      "6fa30cf5-6cec-42b2-97a9-c587e0c475aa",
+      "Power supply"
     ]
   ],
   "text_variables": {}
