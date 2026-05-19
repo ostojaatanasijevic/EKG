@@ -2640,131 +2640,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2991,293 +2866,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "voltmeter_lib:NCS21802DMR2G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NCS21802DMR2G"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:OnSemi_Micro8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://eu.mouser.com/datasheet/2/308/1/NCS21801_D-2317591.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp_dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Precision Amplifiers NCS21802 - PRECISION OP AMPLIFIER - MICRO-8 "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCS21802DMR2G_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NCS21802DMR2G_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NCS21802DMR2G_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 12.065 120.65)
@@ -3377,7 +2965,7 @@
 	)
 	(text "ADD SDCARD READER\n"
 		(exclude_from_sim no)
-		(at 259.08 226.06 0)
+		(at 255.27 143.51 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -3407,7 +2995,7 @@
 	)
 	(text "ADD ON LED\n"
 		(exclude_from_sim no)
-		(at 113.03 259.08 0)
+		(at 204.47 118.11 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -3449,7 +3037,7 @@
 	)
 	(text "ADD ESP32-S3 mini"
 		(exclude_from_sim no)
-		(at 113.03 270.51 0)
+		(at 204.47 129.54 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -3490,7 +3078,7 @@
 	)
 	(text "ADD ON SWITCH"
 		(exclude_from_sim no)
-		(at 113.03 247.65 0)
+		(at 204.47 106.68 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -3971,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 146.05 111.76)
+			(xy 146.05 111.76) (xy 146.05 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 111.76) (xy 158.75 115.57)
+			(xy 158.75 107.95) (xy 158.75 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4388,16 +3976,6 @@
 			(type default)
 		)
 		(uuid "54a69f3d-4a55-496d-b3ba-01b2291888dc")
-	)
-	(wire
-		(pts
-			(xy 29.21 50.8) (xy 29.21 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54dcd304-8e80-4f06-b17b-8ba43c837c33")
 	)
 	(wire
 		(pts
@@ -4501,16 +4079,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 66.04) (xy 29.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6244ba99-605d-4310-9d05-59ee06d46bda")
-	)
-	(wire
-		(pts
 			(xy 50.8 80.01) (xy 63.5 80.01)
 		)
 		(stroke
@@ -4581,26 +4149,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 261.62) (xy 227.33 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68cf4cc5-9009-44b7-8236-3773e0d3d2de")
-	)
-	(wire
-		(pts
-			(xy 224.79 251.46) (xy 231.14 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0471ef-46ab-4efc-8234-7fe8a2d735db")
-	)
-	(wire
-		(pts
 			(xy 127 71.12) (xy 127 60.96)
 		)
 		(stroke
@@ -4618,6 +4166,16 @@
 			(type default)
 		)
 		(uuid "6b0613d9-f2e4-48f8-9e4e-23730e6abdcf")
+	)
+	(wire
+		(pts
+			(xy 220.98 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b940c06-41ad-415e-8d27-a97d7b2fb1e2")
 	)
 	(wire
 		(pts
@@ -4701,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a16269-6270-4405-8bf0-dd454c5301d7")
+	)
+	(wire
+		(pts
 			(xy 86.36 194.31) (xy 86.36 204.47)
 		)
 		(stroke
@@ -4761,6 +4329,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7d03db-ef78-4527-9e59-0fc12d959d1a")
+	)
+	(wire
+		(pts
 			(xy 245.11 30.48) (xy 245.11 41.91)
 		)
 		(stroke
@@ -4818,16 +4396,6 @@
 			(type default)
 		)
 		(uuid "89d53bc2-a1ea-4e17-808a-b02d6bcabe4d")
-	)
-	(wire
-		(pts
-			(xy 224.79 256.54) (xy 231.14 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a098b91-802d-4c93-bce6-ed3e6842b06c")
 	)
 	(wire
 		(pts
@@ -5011,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 146.05 104.14)
+			(xy 146.05 96.52) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 100.33) (xy 158.75 104.14)
+			(xy 158.75 96.52) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 161.29) (xy 170.18 165.1)
+			(xy 170.18 158.75) (xy 170.18 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5541,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 149.86) (xy 170.18 153.67)
+			(xy 170.18 147.32) (xy 170.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6013,73 +5581,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03603383-f300-4435-a9d1-a2e8cb4268cb")
-		(property "Reference" "#PWR04"
-			(at 68.58 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.802 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcbea074-5965-4353-ab63-9b8276e87fd9")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 43.18 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6147,7 +5648,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 160.02 157.48 0)
+		(at 160.02 154.94 0)
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
@@ -6156,7 +5657,7 @@
 		(dnp no)
 		(uuid "0739251c-c0df-4981-9b09-ceef5d222a50")
 		(property "Reference" "U4"
-			(at 161.29 156.2099 0)
+			(at 161.29 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +5666,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 161.29 158.7499 0)
+			(at 161.29 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +5675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 157.48 0)
+			(at 160.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 160.02 157.48 0)
+			(at 160.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +5693,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 160.02 157.48 0)
+			(at 160.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6010,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 107.95 0)
+		(at 158.75 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6517,7 +6018,7 @@
 		(dnp no)
 		(uuid "0ef7a885-8c48-41d8-aa2a-47cff7de7027")
 		(property "Reference" "C26"
-			(at 163.83 106.934 0)
+			(at 163.83 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6026,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 164.084 108.966 0)
+			(at 164.084 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 159.7152 111.76 0)
+			(at 159.7152 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 107.95 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 107.95 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6060,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 158.75 107.95 90)
+			(at 158.75 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,6 +6361,72 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 68.58 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1528c295-ac82-46d2-8911-5da3dce22984")
+		(property "Reference" "#PWR040"
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 68.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c8c831-29be-4873-ac7d-44a2378c0d9f")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 58.42 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6920,73 +6487,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 21.59 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19129ee2-3876-4e90-a200-bc9146cdb356")
-		(property "Reference" "#PWR018"
-			(at 21.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 23.368 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34616058-bbaf-4e59-b238-2e6a1e508cda")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7060,142 +6560,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f63add8-765b-4c41-a0db-b627187ed735")
-		(property "Reference" "#PWR016"
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 136.398 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c96544eb-3cca-48de-ade6-4253b22b8be1")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 162.56 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f8d068b-3acf-47e7-a46b-987b744d0b29")
-		(property "Reference" "#PWR059"
-			(at 162.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.528 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85c981f8-97f0-4419-9823-e4c6bc3e7003")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 158.75 100.33 0)
+		(at 158.75 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7204,7 +6570,7 @@
 		(fields_autoplaced yes)
 		(uuid "21042741-229b-4416-a605-504dcae773c5")
 		(property "Reference" "#PWR078"
-			(at 158.75 104.14 0)
+			(at 158.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +6579,7 @@
 			)
 		)
 		(property "Value" "V_{cc}"
-			(at 158.75 95.25 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +6587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 100.33 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +6596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 100.33 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +6605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 158.75 100.33 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +6845,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 137.16 107.95 0)
+		(at 137.16 104.14 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7487,7 +6853,7 @@
 		(dnp no)
 		(uuid "2a356d25-de6f-4e73-8477-ae0dbb2c43dd")
 		(property "Reference" "U5"
-			(at 133.35 109.2201 0)
+			(at 133.35 105.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +6862,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 133.35 106.6801 0)
+			(at 133.35 102.8701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +6871,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 137.16 107.95 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +6880,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 137.16 107.95 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +6889,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 137.16 107.95 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +6932,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 146.05 100.33 0)
+		(at 146.05 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7575,7 +6941,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b08bbc7-206a-46de-b3ee-09b4f296ada5")
 		(property "Reference" "#PWR079"
-			(at 146.05 104.14 0)
+			(at 146.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +6950,7 @@
 			)
 		)
 		(property "Value" "V_{cc}"
-			(at 146.05 95.25 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +6958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 100.33 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +6967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 100.33 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +6976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 146.05 100.33 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,84 +7301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 29.21 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3caf7513-8341-4fe1-a14b-0c01028c0c02")
-		(property "Reference" "C45"
-			(at 33.02 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 33.02 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 28.2448 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 29.21 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bf8b432-4af3-4d8c-89f7-beb91d5b7e95")
-		)
-		(pin "2"
-			(uuid "368771ee-86f9-488d-ab5d-ba2126f43e3f")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 261.62 50.8 0)
 		(unit 1)
@@ -8223,73 +7511,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4517d925-6d4e-4a30-8d58-2c01f5883a79")
-		(property "Reference" "#PWR015"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.828 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1f4f419-ce40-48fd-8c5e-e86316b8d8fc")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8825,6 +8046,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 224.79 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "558a5e5a-01b8-41b5-b32d-03fdf8720e24")
+		(property "Reference" "#GND01"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd84c4e-8f0a-40af-beee-faf53244d73d")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 170.18 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b2cf2a-b3aa-4cbc-8bed-fb2b016e19e4")
+		(property "Reference" "#PWR031"
+			(at 170.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 170.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc1b234-ecae-4816-8300-1a5170f13fb3")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 377.19 85.09 0)
 		(mirror x)
@@ -9282,73 +8636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 224.79 251.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "651cd53d-5954-476e-8f30-a3b565e849c7")
-		(property "Reference" "#PWR09"
-			(at 228.6 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 220.98 251.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 224.79 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5019d55-ee6b-4906-8c68-baae3cb5667b")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 115.57 77.47 90)
 		(unit 1)
@@ -9418,73 +8705,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 227.33 261.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66ae22a5-f656-49d7-acc2-9a70caab817e")
-		(property "Reference" "#GND025"
-			(at 224.79 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 229.87 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af5f0f84-8a3d-4a19-a4e1-6fd6f1f93413")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#GND025")
 					(unit 1)
 				)
 			)
@@ -9703,16 +8923,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 46.99 0)
+		(lib_id "power:VCC")
+		(at 224.79 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "705eb458-462f-4e92-8e89-1cddaa2442dc")
-		(property "Reference" "#PWR05"
-			(at 68.58 53.34 0)
+		(fields_autoplaced yes)
+		(uuid "6bf3031e-713d-4e2a-8634-0d64c4b618f8")
+		(property "Reference" "#PWR010"
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,18 +8941,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 70.358 52.07 0)
+		(property "Value" "V_{ee}"
+			(at 228.6 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 46.99 0)
+			(at 224.79 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +8960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 46.99 0)
+			(at 224.79 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,8 +8968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 224.79 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,12 +8978,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e285fc4-1a83-412e-b4b2-db74e3fabb36")
+			(uuid "9e8608c0-ed64-405e-bd46-e9ba9965448e")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10006,73 +9226,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77483289-9f3d-4c45-b793-c8918533a2ac")
-		(property "Reference" "#PWR014"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.988 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a28eac57-1702-444d-be8e-b2bd154495d7")
-		)
-		(instances
-			(project "EEG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10377,72 +9530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 21.59 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f7b2840-926d-431a-9686-3f54795ce07b")
-		(property "Reference" "#PWR087"
-			(at 21.59 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_{cc}"
-			(at 21.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 21.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dee0ebe-11e6-4956-98af-246b2407dbfb")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 144.78 90)
 		(unit 1)
@@ -10659,6 +9746,72 @@
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "SW1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 68.58 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8813ccf4-d980-4e86-9257-9eabf68e4d22")
+		(property "Reference" "#PWR05"
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82cfbe72-69ab-4eb5-8f58-a3550bf00195")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR05")
+					(unit 1)
 				)
 			)
 		)
@@ -11609,72 +10762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 29.21 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "974b320a-6354-4109-98b7-59d17c9f65ef")
-		(property "Reference" "#PWR088"
-			(at 29.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_{cc}"
-			(at 29.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 29.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff49a59f-ccd2-4757-9397-6ed46e8fbf33")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 208.28 0)
 		(unit 1)
@@ -11906,6 +10993,72 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 146.05 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ca6f9f-27b4-4fd6-962e-a2745f8c3a76")
+		(property "Reference" "#PWR015"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aea826be-b647-44ef-b8bd-74501429d65c")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12339,6 +11492,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 224.79 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af46def1-ecd0-4808-821c-e0529b548a7f")
+		(property "Reference" "#PWR09"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{cc}"
+			(at 228.6 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f2970ff-1b47-4832-923a-6c0c4faa35db")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 38.1 36.83 90)
 		(unit 1)
@@ -12686,6 +11906,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 158.75 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9c9cb43-c5ca-4e60-bfe3-331ef31b7365")
+		(property "Reference" "#PWR016"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8647534-494a-4e8d-87cd-c96803889114")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 116.84 147.32 0)
 		(unit 2)
@@ -12840,6 +12126,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 134.62 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca6115b-eddb-448a-bb24-eb6c94ab5553")
+		(property "Reference" "#PWR04"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{ee}"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a6887fe-0c77-4333-b69c-e5586ac8977c")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 139.7 58.42 0)
 		(unit 1)
@@ -12926,7 +12278,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 170.18 149.86 0)
+		(at 170.18 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12935,7 +12287,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0b3f1f0-2f23-4f80-aa38-f2dc1f208ed4")
 		(property "Reference" "#PWR077"
-			(at 170.18 153.67 0)
+			(at 170.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12944,7 +12296,7 @@
 			)
 		)
 		(property "Value" "V_{cc}"
-			(at 170.18 144.78 0)
+			(at 170.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,7 +12304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 149.86 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 149.86 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,7 +12322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 170.18 149.86 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,142 +12486,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7932b0b-0868-4c79-a0c8-11ce5f14e2d4")
-		(property "Reference" "#PWR028"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.528 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6f38b73-2349-436f-bb96-230cb1acf536")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca475cf9-d4a3-4e7d-9cb1-e94e6ad77170")
-		(property "Reference" "#PWR031"
-			(at 170.18 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.148 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86c43afc-eba8-43ad-8060-92ba4398bea5")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 146.05 107.95 180)
+		(at 146.05 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13278,7 +12496,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb14659d-29f5-46f3-8f3c-5c71bdb95f28")
 		(property "Reference" "C44"
-			(at 149.86 106.6799 0)
+			(at 149.86 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +12505,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.86 109.2199 0)
+			(at 149.86 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,7 +12514,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 145.0848 104.14 0)
+			(at 145.0848 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 107.95 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13314,7 +12532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 107.95 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +12540,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 146.05 107.95 90)
+			(at 146.05 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +12565,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 162.56 149.86 0)
+		(at 162.56 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13356,7 +12574,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbb405f1-dd41-4bf2-a3d8-2f6ba3361a50")
 		(property "Reference" "#PWR076"
-			(at 162.56 153.67 0)
+			(at 162.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +12583,7 @@
 			)
 		)
 		(property "Value" "V_{cc}"
-			(at 162.56 144.78 0)
+			(at 162.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +12591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 149.86 0)
+			(at 162.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +12600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 149.86 0)
+			(at 162.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +12609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 162.56 149.86 0)
+			(at 162.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13565,7 +12783,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 157.48 180)
+		(at 170.18 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13574,7 +12792,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1418dc8-1f23-44ae-9b94-28a95ce5a7a0")
 		(property "Reference" "C34"
-			(at 173.99 156.2099 0)
+			(at 173.99 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,7 +12801,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 173.99 158.7499 0)
+			(at 173.99 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13592,7 +12810,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 169.2148 153.67 0)
+			(at 169.2148 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,7 +12819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 157.48 0)
+			(at 170.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,7 +12828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 157.48 0)
+			(at 170.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +12836,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 170.18 157.48 90)
+			(at 170.18 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,16 +12995,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 134.62 100.33 0)
+		(at 162.56 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7f4da24-14bb-44bc-a144-962f52204b85")
-		(property "Reference" "#PWR080"
-			(at 134.62 104.14 0)
+		(uuid "f392901c-242b-47f9-a960-191477e4535c")
+		(property "Reference" "#PWR028"
+			(at 162.56 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,8 +13012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_{cc}"
-			(at 134.62 95.25 0)
+		(property "Value" "V_{ee}"
+			(at 162.56 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +13021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 100.33 0)
+			(at 162.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13812,7 +13030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 100.33 0)
+			(at 162.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +13039,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 162.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcba380-e540-4d4d-882b-1685700af08e")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 134.62 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7f4da24-14bb-44bc-a144-962f52204b85")
+		(property "Reference" "#PWR080"
 			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{cc}"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,200 +13200,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "voltmeter_lib:NCS21802DMR2G")
-		(at 24.13 58.42 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe9db465-ea99-47a0-9748-222d360ceed4")
-		(property "Reference" "U8"
-			(at 15.494 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCS21802DMR2G"
-			(at 0.762 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:OnSemi_Micro8"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/308/1/NCS21801_D-2317591.pdf"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "8b28fdd7-de36-4cca-ad32-f34331b868ab")
-		)
-		(pin "3"
-			(uuid "da7a57b1-10ee-43a5-8238-278f8d25ee04")
-		)
-		(pin "2"
-			(uuid "610bdb32-3245-4dc8-a12a-582529ec28d3")
-		)
-		(pin "5"
-			(uuid "ec2f32d0-c2ae-4ae8-a21c-d5c2387cef59")
-		)
-		(pin "4"
-			(uuid "fe3793e0-7bc1-4071-aa63-5bb59394c24c")
-		)
-		(pin "1"
-			(uuid "3862f81b-fc86-4caf-9e94-0396e77d7221")
-		)
-		(pin "7"
-			(uuid "6a71d4eb-b37c-4ad9-814c-c6e84ebeee19")
-		)
-		(pin "8"
-			(uuid "d103fc63-76d3-4300-b6f4-c16b3bb58d6f")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "U8")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 224.79 256.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff597d67-f95f-4bdd-8274-f32168e7a3fd")
-		(property "Reference" "#PWR010"
-			(at 228.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 220.98 256.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 224.79 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80cf141a-f45e-4b72-8c41-4d462a0106c2")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 231.14 247.65)
-		(size 26.67 16.51)
+		(at 205.74 68.58)
+		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14124,7 +13217,7 @@
 		)
 		(uuid "6fa30cf5-6cec-42b2-97a9-c587e0c475aa")
 		(property "Sheetname" "Power supply"
-			(at 231.14 246.9384 0)
+			(at 205.74 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +13226,7 @@
 			)
 		)
 		(property "Sheetfile" "./power_supply.kicad_sch"
-			(at 231.14 264.7446 0)
+			(at 205.74 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,34 +13234,34 @@
 				(justify left top)
 			)
 		)
-		(pin "-2.5V" output
-			(at 231.14 256.54 180)
-			(uuid "9c749fdc-69ce-4120-b33d-b12c495f76b0")
+		(pin "V_{ee}" output
+			(at 220.98 81.28 0)
+			(uuid "b10db2bf-218c-46fc-b107-e8173273c93a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "+2.5V" output
-			(at 231.14 251.46 180)
-			(uuid "5419d76e-b35b-4051-a519-6f6c730804fb")
+		(pin "V_{cc}" output
+			(at 220.98 71.12 0)
+			(uuid "67a384b9-97fc-4275-9805-f83bd016fde4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GND" output
-			(at 231.14 261.62 180)
-			(uuid "785d17d2-818d-404a-aa10-b7f4bf7afa61")
+			(at 220.98 76.2 0)
+			(uuid "d529e92b-43b8-4b40-8ace-dfc932566043")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
