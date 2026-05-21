@@ -1360,27 +1360,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ADD SDCARD READER\n"
-		(exclude_from_sim no)
-		(at 103.886 133.096 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-		)
-		(uuid "0248023e-df20-44af-a7e3-f7e234f0b851")
-	)
-	(text "ADD ESP32-S3 mini"
-		(exclude_from_sim no)
-		(at 53.086 119.126 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-			(justify left)
-		)
-		(uuid "699bbb3a-3779-4e54-bcca-5d55cdad3fef")
-	)
 	(text "ADD ON LED\n"
 		(exclude_from_sim no)
 		(at 53.086 107.696 0)
@@ -1400,7 +1379,37 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 161.29 81.28)
+			(xy 155.1712 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176525fe-ed4d-4e20-ac33-b0c3ada48d6d")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ccf6c9-9237-45e1-aee5-3c43ba0cb0ed")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b75091-524b-44f5-9063-b1d8867e2fa9")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 161.29 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1430,6 +1439,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717d66e4-00de-48ab-8ef7-5b6eb289398c")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74056be6-a6ab-4030-add4-f6258f4c1343")
+	)
+	(wire
+		(pts
 			(xy 121.92 59.69) (xy 125.73 59.69)
 		)
 		(stroke
@@ -1440,6 +1469,16 @@
 	)
 	(wire
 		(pts
+			(xy 155.1712 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba75c9a-71f7-491f-9836-c6d5cc13765b")
+	)
+	(wire
+		(pts
 			(xy 121.92 53.34) (xy 121.92 59.69)
 		)
 		(stroke
@@ -1447,6 +1486,16 @@
 			(type default)
 		)
 		(uuid "93493bf2-52f9-45e1-a52f-a08d319ff776")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfc7a7d-ee1f-4826-ac57-53593c85ab6f")
 	)
 	(wire
 		(pts
@@ -1467,6 +1516,26 @@
 			(type default)
 		)
 		(uuid "abbd480b-f291-4381-ab50-420f06df6e05")
+	)
+	(wire
+		(pts
+			(xy 155.1712 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1f4770-756c-4b50-94fc-9f0d045d8c76")
+	)
+	(wire
+		(pts
+			(xy 111.76 77.47) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95c7a53-cc6b-4eca-bedb-d47633d9cbea")
 	)
 	(wire
 		(pts
@@ -1498,6 +1567,36 @@
 		)
 		(uuid "f1dda2b4-f5f8-4ec6-993c-eb6ea8828634")
 	)
+	(wire
+		(pts
+			(xy 155.1712 76.2) (xy 163.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3efbe9d-5b2b-4b27-bbdc-7bd822d67eee")
+	)
+	(label "CLK"
+		(at 119.38 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16197e3e-1f60-4944-9021-25cc0829a3d8")
+	)
+	(label "MOSI"
+		(at 119.38 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "183e83ed-39a4-4614-9cf5-8c1d794beffe")
+	)
 	(label "V_USB"
 		(at 113.03 59.69 0)
 		(effects
@@ -1507,6 +1606,66 @@
 			(justify left bottom)
 		)
 		(uuid "1e9e9add-eef1-440a-a695-750a7e213316")
+	)
+	(label "CS"
+		(at 119.38 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "731a11a1-9c56-40ac-9160-4ac8c58c9a9d")
+	)
+	(label "MOSI"
+		(at 155.1712 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77754c4c-9241-4c02-87d3-84705e4251ee")
+	)
+	(label "CLK"
+		(at 155.1712 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d36a04f7-896e-4049-9bfb-d6c5fb005a58")
+	)
+	(label "CS"
+		(at 155.1712 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2c57cd9-8b5e-4774-8d03-bf6b776e7841")
+	)
+	(label "MISO"
+		(at 155.1712 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f419d15f-8be5-4c23-b5a3-3a1052777727")
+	)
+	(label "MISO"
+		(at 119.38 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f65c6d8e-571c-4a09-bcc2-869c0e9264df")
 	)
 	(hierarchical_label "+V_{BAT}"
 		(shape input)
@@ -1532,7 +1691,7 @@
 	)
 	(symbol
 		(lib_id "PEKG_lib:Micro_SD_Card_Module")
-		(at 182.88 76.2 0)
+		(at 184.15 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1541,7 +1700,7 @@
 		(fields_autoplaced yes)
 		(uuid "21482bc5-ecd2-42f1-8a17-a8eedfbdce98")
 		(property "Reference" "J3"
-			(at 204.47 74.2949 0)
+			(at 205.74 74.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1709,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card_Module"
-			(at 204.47 76.8349 0)
+			(at 205.74 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1718,7 @@
 			)
 		)
 		(property "Footprint" "PEKG:Micro_SD_Card_Module"
-			(at 212.09 68.58 0)
+			(at 213.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1727,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-			(at 185.42 76.2 0)
+			(at 186.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1736,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
-			(at 182.88 76.2 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1773,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 68.58 90)
+		(at 161.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1623,7 +1782,7 @@
 		(fields_autoplaced yes)
 		(uuid "34892abb-1b4d-4379-bf72-e118c2131ee7")
 		(property "Reference" "#PWR050"
-			(at 166.37 68.58 0)
+			(at 161.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,16 +1791,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 158.75 68.5799 90)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 68.58 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 68.58 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 68.58 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
