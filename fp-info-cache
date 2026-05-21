@@ -1,4 +1,4 @@
-24746235071073564
+24748014442447162
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69831,6 +69831,13 @@ MODULE_ESP32-S3-ZERO
 0
 18
 18
+PEKG
+Micro_SD_Card_Module
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
 PEKG
 battery_holder
 
