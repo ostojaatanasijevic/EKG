@@ -2963,16 +2963,6 @@
 		)
 		(uuid e9588751-bc75-4fa2-851c-8a879e097849)
 	)
-	(text "ADD SDCARD READER\n"
-		(exclude_from_sim no)
-		(at 255.27 143.51 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-		)
-		(uuid "0b5d303c-26ec-46ce-9b9a-db9e26efb99f")
-	)
 	(text "10x gain"
 		(exclude_from_sim no)
 		(at 195.326 14.986 0)
@@ -2992,17 +2982,6 @@
 			)
 		)
 		(uuid "0eb88977-5c18-4717-9feb-700af7416cf6")
-	)
-	(text "ADD ON LED\n"
-		(exclude_from_sim no)
-		(at 204.47 118.11 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-			(justify left)
-		)
-		(uuid "2050717a-bb05-4e06-80fc-d19c73334a43")
 	)
 	(text "Optional boost converter"
 		(exclude_from_sim no)
@@ -3034,17 +3013,6 @@
 			(justify left)
 		)
 		(uuid "7489070d-c08e-4eda-977a-d4b633816a86")
-	)
-	(text "ADD ESP32-S3 mini"
-		(exclude_from_sim no)
-		(at 204.47 129.54 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-			(justify left)
-		)
-		(uuid "8e1095bf-b6e3-466b-8d87-6fc967caca3e")
 	)
 	(text "DC component removal"
 		(exclude_from_sim no)
@@ -3609,6 +3577,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 198.12) (xy 252.73 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104b164c-5287-4ad7-b5c5-e118f46a965a")
+	)
+	(wire
+		(pts
 			(xy 86.36 189.23) (xy 86.36 194.31)
 		)
 		(stroke
@@ -4169,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 76.2) (xy 224.79 76.2)
+			(xy 267.97 204.47) (xy 271.78 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4259,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 81.28) (xy 220.98 81.28)
+			(xy 271.78 209.55) (xy 267.97 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 220.98 71.12)
+			(xy 271.78 199.39) (xy 267.97 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4476,6 +4454,16 @@
 			(type default)
 		)
 		(uuid "9d1e2226-8b33-4ca6-a33f-b314aee0ec6d")
+	)
+	(wire
+		(pts
+			(xy 245.11 201.93) (xy 252.73 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5d8332-90e1-408f-afeb-7893bf6cb9b6")
 	)
 	(wire
 		(pts
@@ -8047,7 +8035,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 224.79 76.2 90)
+		(at 271.78 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8056,7 +8044,7 @@
 		(fields_autoplaced yes)
 		(uuid "558a5e5a-01b8-41b5-b32d-03fdf8720e24")
 		(property "Reference" "#GND01"
-			(at 227.33 76.2 0)
+			(at 274.32 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8053,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 222.25 76.2 0)
+			(at 269.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +8062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 76.2 0)
+			(at 271.78 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 76.2 0)
+			(at 271.78 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 76.2 0)
+			(at 271.78 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8912,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 224.79 81.28 270)
+		(at 271.78 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8933,7 +8921,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bf3031e-713d-4e2a-8634-0d64c4b618f8")
 		(property "Reference" "#PWR010"
-			(at 220.98 81.28 0)
+			(at 267.97 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8930,7 @@
 			)
 		)
 		(property "Value" "V_{ee}"
-			(at 228.6 81.2799 90)
+			(at 275.59 209.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 81.28 0)
+			(at 271.78 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 81.28 0)
+			(at 271.78 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +8957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 81.28 0)
+			(at 271.78 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11481,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 224.79 71.12 270)
+		(at 271.78 199.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11502,7 +11490,7 @@
 		(fields_autoplaced yes)
 		(uuid "af46def1-ecd0-4808-821c-e0529b548a7f")
 		(property "Reference" "#PWR09"
-			(at 220.98 71.12 0)
+			(at 267.97 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11499,7 @@
 			)
 		)
 		(property "Value" "V_{cc}"
-			(at 228.6 71.1199 90)
+			(at 275.59 199.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 71.12 0)
+			(at 271.78 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 71.12 0)
+			(at 271.78 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 71.12 0)
+			(at 271.78 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,7 +13189,69 @@
 		)
 	)
 	(sheet
-		(at 205.74 68.58)
+		(at 229.87 196.85)
+		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d4ea742-5b63-4b37-8bef-d162cee54c1e")
+		(property "Sheetname" "MCU"
+			(at 229.87 196.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 229.87 212.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+V_{BAT}" input
+			(at 245.11 201.93 0)
+			(uuid "4fab965c-5314-48b4-922d-8dd1ba174064")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+V_{USB}" output
+			(at 245.11 198.12 0)
+			(uuid "d32b4c16-8cb0-40a2-9187-ca5b6c9f5224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.73 196.85)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13217,7 +13267,7 @@
 		)
 		(uuid "6fa30cf5-6cec-42b2-97a9-c587e0c475aa")
 		(property "Sheetname" "Power supply"
-			(at 205.74 67.8684 0)
+			(at 252.73 196.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13276,7 @@
 			)
 		)
 		(property "Sheetfile" "./power_supply.kicad_sch"
-			(at 205.74 84.4046 0)
+			(at 252.73 212.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13285,7 @@
 			)
 		)
 		(pin "V_{ee}" output
-			(at 220.98 81.28 0)
+			(at 267.97 209.55 0)
 			(uuid "b10db2bf-218c-46fc-b107-e8173273c93a")
 			(effects
 				(font
@@ -13245,7 +13295,7 @@
 			)
 		)
 		(pin "V_{cc}" output
-			(at 220.98 71.12 0)
+			(at 267.97 199.39 0)
 			(uuid "67a384b9-97fc-4275-9805-f83bd016fde4")
 			(effects
 				(font
@@ -13255,13 +13305,33 @@
 			)
 		)
 		(pin "GND" output
-			(at 220.98 76.2 0)
+			(at 267.97 204.47 0)
 			(uuid "d529e92b-43b8-4b40-8ace-dfc932566043")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+V_{BAT}" output
+			(at 252.73 201.93 180)
+			(uuid "2225240f-eaaa-4ccb-ba69-982c59f62653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+V_{USB}" input
+			(at 252.73 198.12 180)
+			(uuid "2254692e-20ac-40f7-8f03-792daaa3eec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

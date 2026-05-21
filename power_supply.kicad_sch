@@ -1371,216 +1371,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener_Dual_CommonAnode_KKA"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Dual_CommonAnode_KKA"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Zener diode, common anode on pin 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode zener dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Dual_CommonAnode_KKA_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.302 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -3.81 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -1.27) (xy 3.81 -1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3563,6 +3353,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 12.7 13.97)
@@ -3701,7 +3616,7 @@
 	)
 	(text_box "ADD 3 PIN CONNECTOR FOR SMALL LIPO BATTERY\n"
 		(exclude_from_sim no)
-		(at 137.16 240.03 0)
+		(at 132.08 232.41 0)
 		(size 20.32 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3775,10 +3690,10 @@
 		(uuid "09bcc488-f9b4-4838-9d9f-caaa32c0df6f")
 	)
 	(junction
-		(at 69.85 246.38)
+		(at 36.83 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "117972c0-0688-4ba4-a50f-6257d196a6f7")
+		(uuid "0c68fa9d-d188-45cd-bfe3-4c79f7492932")
 	)
 	(junction
 		(at 213.36 49.53)
@@ -3965,6 +3880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5fe405d-0104-4ad5-9f41-ee846a411011")
+	)
+	(junction
+		(at 69.85 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68847d4-8429-4618-b02d-64bde63067ee")
 	)
 	(junction
 		(at 71.12 148.59)
@@ -4472,6 +4393,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 243.84) (xy 69.85 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c20d51e-ef7a-41e5-a2da-8bb0f67002ed")
+	)
+	(wire
+		(pts
 			(xy 102.87 50.8) (xy 121.92 50.8)
 		)
 		(stroke
@@ -4599,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "3dd93363-6d8c-4d88-a058-3206ebfcf32e")
+	)
+	(wire
+		(pts
+			(xy 36.83 243.84) (xy 36.83 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e56f4a0-46ba-4e5a-a900-010b65fe14e6")
 	)
 	(wire
 		(pts
@@ -4809,16 +4750,6 @@
 			(type default)
 		)
 		(uuid "591dd4b9-f7ac-46fc-8072-4511e4bf6dd7")
-	)
-	(wire
-		(pts
-			(xy 36.83 246.38) (xy 41.91 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a23dff5-4459-4f4c-8987-c5897953b70d")
 	)
 	(wire
 		(pts
@@ -5392,6 +5323,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 247.65) (xy 166.37 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78f6d1f-30fe-4973-b526-e9cfee6c3a7f")
+	)
+	(wire
+		(pts
 			(xy 74.93 97.79) (xy 83.82 97.79)
 		)
 		(stroke
@@ -5402,13 +5343,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 220.98) (xy 113.03 224.79)
+			(xy 113.03 222.25) (xy 113.03 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aaf5e2e3-a026-4d68-887e-772b87807529")
+	)
+	(wire
+		(pts
+			(xy 27.94 246.38) (xy 36.83 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab798535-fe91-44d9-ada6-233b5991efa8")
 	)
 	(wire
 		(pts
@@ -5589,16 +5540,6 @@
 			(type default)
 		)
 		(uuid "c3d6c0b4-c1fb-44a6-9eff-f34fa448e3cd")
-	)
-	(wire
-		(pts
-			(xy 66.04 246.38) (xy 69.85 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c421b70f-e10c-4025-b648-4e73748224c7")
 	)
 	(wire
 		(pts
@@ -6072,16 +6013,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 220.98) (xy 113.03 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe857f96-4ecb-4d27-9765-a3dd989c2d29")
-	)
-	(wire
-		(pts
 			(xy 261.62 57.15) (xy 256.54 57.15)
 		)
 		(stroke
@@ -6346,28 +6277,6 @@
 			)
 		)
 	)
-	(global_label "+VBUS"
-		(shape output)
-		(at 41.91 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7739c313-16fc-4809-a4c5-b6e14125644c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.3662 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMOS_GATE"
 		(shape output)
 		(at 308.61 49.53 0)
@@ -6390,50 +6299,6 @@
 			)
 		)
 	)
-	(global_label "+VBUS"
-		(shape input)
-		(at 66.04 246.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7f80782-b743-43b4-93c6-73a23d7021fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5838 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+VBUS"
-		(shape input)
-		(at 105.41 220.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0c57b5a-7ab8-490e-b4a5-0e2b3104ae30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9538 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "V_{ee}"
 		(shape output)
 		(at 109.22 114.3 0)
@@ -6444,6 +6309,17 @@
 			(justify left)
 		)
 		(uuid "20fd7b11-52d6-418e-a3b9-1cdbc81f3f6c")
+	)
+	(hierarchical_label "+V_{USB}"
+		(shape input)
+		(at 27.94 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2913f830-9b81-492f-8fe3-6dc0be3ebd0b")
 	)
 	(hierarchical_label "V_{cc}"
 		(shape output)
@@ -6466,6 +6342,17 @@
 			(justify left)
 		)
 		(uuid "6df9eca0-54f4-4117-b6ad-ba9c624a55af")
+	)
+	(hierarchical_label "+V_{BAT}"
+		(shape output)
+		(at 162.56 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81b8a4d3-fe99-426e-bddc-99fed1d55a98")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6530,10 +6417,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "586077e2-bdc7-40a2-afd8-01458d15ce63")
+			(uuid "35f5546b-11f3-48bf-845c-758f23203549")
 		)
 		(pin "1"
-			(uuid "e43ae4c2-1bbd-4d02-9e96-32ca0bd56096")
+			(uuid "ef9dcb08-f44f-43a5-9408-fd632b7c1fed")
 		)
 		(instances
 			(project "PEKG"
@@ -6563,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
+		(property "Value" "+V_{BAT}"
 			(at 120.65 246.3799 90)
 			(effects
 				(font
@@ -6600,7 +6487,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "99360b90-bee1-4f84-996b-ac4133f8a6d3")
+			(uuid "47864dd4-1ddd-4099-9103-7fd6c3fd4d43")
 		)
 		(instances
 			(project "PEKG"
@@ -6685,10 +6572,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "66921cf4-a25d-4864-a5dd-36d53387ee54")
+			(uuid "e668aa2e-b885-4c7a-ba90-e41407a6fae7")
 		)
 		(pin "1"
-			(uuid "6564b60d-2ddb-4905-b087-15dcdbf8168f")
+			(uuid "0e7bacc9-9dbc-4491-baee-77f0dc94f2f2")
 		)
 		(instances
 			(project "PEKG"
@@ -6755,7 +6642,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "abf09be8-5826-4c3e-90ea-9bdd83b3d41d")
+			(uuid "0214eb98-d07e-48ea-9b03-e1f1f0e687f2")
 		)
 		(instances
 			(project "PEKG"
@@ -6830,10 +6717,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b3adc79-becb-4e66-b597-dc6e8c61b672")
+			(uuid "2bf32a3b-2202-40c0-a0b3-e54040306fd5")
 		)
 		(pin "2"
-			(uuid "cfd1ca33-3ced-4160-ad37-6bf116094395")
+			(uuid "506d9b24-be39-45be-ad1d-20f5c5e2856b")
 		)
 		(instances
 			(project "PEKG"
@@ -6900,7 +6787,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "86c2127c-1685-4942-bbfc-806a21fdc2cc")
+			(uuid "691ada2f-0df3-49c4-ac59-2b2e52b4b7fe")
 		)
 		(instances
 			(project "PEKG"
@@ -7010,16 +6897,120 @@
 			)
 		)
 		(pin "1"
-			(uuid "20bf7da9-aa95-4548-bd0d-d58fcc9f2db5")
+			(uuid "9f95f274-288c-4eea-9fc5-76faa7234cbf")
 		)
 		(pin "2"
-			(uuid "f9433240-9623-45c4-a02c-f8380fa1dc10")
+			(uuid "a18b5563-ce16-4750-9e5c-018f6b4737e4")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "D8")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 199.39 49.53 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "117ce249-68a6-4196-b973-95d6b14d972d")
+		(property "Reference" "U7"
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U7")
+					(unit 6)
 				)
 			)
 		)
@@ -7079,7 +7070,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "226bac27-e4f3-4ce0-833c-118a04716e72")
+			(uuid "d0cb3f7c-3e65-43fb-ad98-0af314045829")
 		)
 		(instances
 			(project "PEKG"
@@ -7146,7 +7137,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b780d4fb-94f8-408c-b1ec-355cd7d6c46a")
+			(uuid "b9ac7839-c990-4981-99b0-0e11cfd9b36f")
 		)
 		(instances
 			(project "PEKG"
@@ -7212,7 +7203,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6f72ab7-d724-4478-9575-0b98abd00896")
+			(uuid "37f360ff-4c62-4aad-9038-6b5b5d6c968c")
 		)
 		(instances
 			(project "PEKG"
@@ -7224,44 +7215,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
-		(at 229.87 207.01 90)
+		(lib_id "74xx:74HC14")
+		(at 290.83 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15a24236-43d5-4da4-8501-8179381d60f9")
-		(property "Reference" "D14"
-			(at 227.33 205.7399 90)
+		(uuid "16176a88-0c1f-4bb4-8b17-09e184838bd4")
+		(property "Reference" "U8"
+			(at 292.862 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PSM712-LF-T7"
-			(at 227.33 208.2799 90)
+		(property "Value" "74HC14"
+			(at 292.862 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 229.87 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 207.01 0)
+		(property "Footprint" ""
+			(at 290.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,8 +7248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Zener diode, common anode on pin 3"
-			(at 229.87 207.01 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 290.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7278,8 +7257,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32677"
-			(at 229.87 207.01 90)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 290.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,19 +7266,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "234680fd-1b44-45d4-8b4f-76aa318b713f")
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
 		)
 		(pin "2"
-			(uuid "2a6d8b95-aac1-431c-af85-a687d0ba8502")
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
 		)
 		(pin "3"
-			(uuid "d1cf07ff-1a0d-49a8-83eb-99010b0d56cd")
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
 		)
 		(instances
-			(project "PEKG"
+			(project ""
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "D14")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7379,10 +7391,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "00334735-8496-4eba-b700-1b61433e2f14")
+			(uuid "12817ef1-2db8-4de6-bd1f-b514fb6da1e1")
 		)
 		(pin "1"
-			(uuid "cde75c3c-49af-4964-bb6c-69c407b05b63")
+			(uuid "e0a77767-a159-488f-b521-b444baebbca1")
 		)
 		(instances
 			(project "PEKG"
@@ -7448,7 +7460,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8cbdc37-fd1e-427c-b9fb-453df81bce84")
+			(uuid "91460c16-24c9-4c14-802c-153f1c7d08b0")
 		)
 		(instances
 			(project "PEKG"
@@ -7524,10 +7536,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "55777f20-c8d0-4d4d-abb0-fdaecca0c324")
+			(uuid "e0ab3faa-60fa-4ac4-8eed-6c0790aa5639")
 		)
 		(pin "1"
-			(uuid "dcff02f7-f092-4ec3-8863-79c00a6cba32")
+			(uuid "b2acc47d-afea-4495-9dd6-b1770e502569")
 		)
 		(instances
 			(project "PEKG"
@@ -7594,7 +7606,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "48533c17-4f03-41d3-a5e8-2a28895a0b97")
+			(uuid "f6f3af5b-f343-4a6a-86b9-abbb97137f66")
 		)
 		(instances
 			(project "PEKG"
@@ -7661,7 +7673,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f37f60c-3499-4a0f-bf7c-342c9304bf5b")
+			(uuid "8e6f11ce-c842-4865-9508-94f83c211190")
 		)
 		(instances
 			(project "PEKG"
@@ -7698,6 +7710,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -7736,10 +7749,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ba6cb1f-9362-4b36-85c3-9fc704859499")
+			(uuid "c44683c3-7496-4496-a436-faa028281bac")
 		)
 		(pin "2"
-			(uuid "8007e7ca-c673-4ce7-837b-51fbfae3ddb5")
+			(uuid "f9d90eff-ad54-4436-a366-3b466f88f96d")
 		)
 		(instances
 			(project "PEKG"
@@ -7811,10 +7824,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1d3329b-2f6f-4098-bd42-9c3bb1339a53")
+			(uuid "42844c10-02bd-4f6e-b60f-c1dcd331d896")
 		)
 		(pin "2"
-			(uuid "1ba13a4e-8771-42ff-a754-00d169ca1f6b")
+			(uuid "b0b7cec1-734d-44b5-a2d5-d4b3e2d53aff")
 		)
 		(instances
 			(project "PEKG"
@@ -7881,7 +7894,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "51a7dd89-c083-440a-8698-a4dadd8f58d9")
+			(uuid "7d51ed54-df97-4a71-b248-e20f0fb513f6")
 		)
 		(instances
 			(project "PEKG"
@@ -7948,7 +7961,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e333de86-e732-4ca4-91cc-45e2dd0344a7")
+			(uuid "511b622c-69d1-4b43-8f3e-da6bed8bfc3a")
 		)
 		(instances
 			(project "PEKG"
@@ -8015,7 +8028,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8d52d31-4764-4572-97be-5e54609da458")
+			(uuid "7f263fbc-0da0-4446-90fc-e74d71cdaf16")
 		)
 		(instances
 			(project "PEKG"
@@ -8090,10 +8103,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "352c6d60-a75e-41e2-8f40-d116eab6ce80")
+			(uuid "1fdf15e2-799c-4c16-add1-5d554056d3ec")
 		)
 		(pin "2"
-			(uuid "ee4c215a-bcba-4eb6-86ab-a8a979889a3b")
+			(uuid "32dae868-8459-48ec-a985-13d2460bda5b")
 		)
 		(instances
 			(project "PEKG"
@@ -8158,13 +8171,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "9b3c4b2d-e7ea-4423-95b4-2ea10bb81fc7")
+			(uuid "1a917b89-d11e-4d35-b99d-a5fd1f8b2a0a")
 		)
 		(pin "4"
-			(uuid "51ba8a03-4f51-438a-bcac-24957b007854")
+			(uuid "861232b6-292a-453c-aeac-8e4d74c1fe0f")
 		)
 		(pin "6"
-			(uuid "b54fbd25-845b-4a28-9c5f-65da68d6db9d")
+			(uuid "1da6bf2d-e8a1-4914-95fc-1fae053d1a06")
 		)
 		(pin "3"
 			(uuid "6d25783e-b4b3-4c50-b909-2d5acf97c684")
@@ -8239,10 +8252,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "42c5ad77-7263-4596-b06a-48b405ae7cd4")
+			(uuid "803aff96-72bc-494a-813d-9940bec3f851")
 		)
 		(pin "1"
-			(uuid "28de0ffb-ff91-4927-8c2d-ab06ce3dcd18")
+			(uuid "491e0ed1-1a07-480a-b930-24fcbd0afc2f")
 		)
 		(instances
 			(project "PEKG"
@@ -8308,7 +8321,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a3411cc-5dae-4d8f-a850-a99592bc90e0")
+			(uuid "5c5c0c5d-dcde-4da4-9bba-79ce5f1ad1d6")
 		)
 		(instances
 			(project "PEKG"
@@ -8383,10 +8396,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e4e4bdf-d156-4fd2-b5cc-864787f8cfb5")
+			(uuid "8a9ab43c-d9f1-474b-b5d6-77a435c91a59")
 		)
 		(pin "2"
-			(uuid "38056f0a-e0bb-40d7-94bb-d0fdcf51fbd5")
+			(uuid "39461f2b-6e0f-4de8-a5ec-4f17a27c6ebc")
 		)
 		(instances
 			(project "PEKG"
@@ -8452,7 +8465,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e356323f-9ff0-4639-a34b-a3854b76c3d1")
+			(uuid "391b57b2-5263-46ed-9e05-9099cc707970")
 		)
 		(instances
 			(project "PEKG"
@@ -8519,7 +8532,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cc26183-1993-4458-ae27-2dc31aa5f6a2")
+			(uuid "d29aec69-0edc-497f-80df-ec4c4759b725")
 		)
 		(instances
 			(project "PEKG"
@@ -8630,10 +8643,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d072d43-309f-4923-bd75-cfa722f1126e")
+			(uuid "ec22985d-d906-4267-a3b8-a120f075451d")
 		)
 		(pin "2"
-			(uuid "85917501-8d80-42da-89fc-b684493aa291")
+			(uuid "46484114-678b-44f0-aa18-220f1d87c866")
 		)
 		(instances
 			(project "PEKG"
@@ -8654,7 +8667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ad20f40-417f-4723-a98b-b967b6e00903")
-		(property "Reference" "U8"
+		(property "Reference" "U11"
 			(at 205.74 241.3 0)
 			(effects
 				(font
@@ -8698,27 +8711,27 @@
 			)
 		)
 		(pin "5"
-			(uuid "8323d35b-b356-488f-a425-e6e42c008f16")
+			(uuid "082d1e04-19d3-4ad3-a6b6-9e4e572be688")
 		)
 		(pin "2"
-			(uuid "524bba42-f22d-4569-9b28-9abd90e48c20")
+			(uuid "69ad4b51-dde0-44cf-8494-5f40a487f3cf")
 		)
 		(pin "6"
-			(uuid "fe184c20-fd97-461d-af37-61e82f633dac")
+			(uuid "e44e050d-b2f0-438e-ad47-07b020164ac1")
 		)
 		(pin "3"
-			(uuid "a00bdd3d-c461-46e8-8929-a274c8af89e5")
+			(uuid "971c6ccf-c821-45ab-823d-73b80261c145")
 		)
 		(pin "4"
-			(uuid "87929d9a-db14-43f4-997a-736b4d035e78")
+			(uuid "edade623-cfda-406f-acee-a1cc49bcaaf5")
 		)
 		(pin "1"
-			(uuid "970bb0be-6db3-4eac-82c0-237b71d832f0")
+			(uuid "961efc91-a418-471b-8dcc-81db2ceafc93")
 		)
 		(instances
-			(project ""
+			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U8")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8798,10 +8811,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a11f3d5-6757-4403-91c5-ef7e48dcd894")
+			(uuid "f1306a1d-4548-4ea7-bd03-a073b318c50d")
 		)
 		(pin "1"
-			(uuid "e961fddf-c9d0-429d-ae42-f8ef8dc3da38")
+			(uuid "555ce2b1-aa11-4116-9ba8-854b4ef26d63")
 		)
 		(instances
 			(project "PEKG"
@@ -8911,10 +8924,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c249dde2-744b-4cc4-9c82-6fb2609a4c7d")
+			(uuid "3a51066a-ef9e-41c6-9a3e-3f4dc4c93008")
 		)
 		(pin "2"
-			(uuid "5c30778a-44da-41eb-9ea2-69d003229a06")
+			(uuid "7f1bffdc-18e3-4f42-a657-76cc60f8f958")
 		)
 		(instances
 			(project "PEKG"
@@ -8981,117 +8994,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f596184c-c536-4ac8-be97-ed4d048f8416")
+			(uuid "08656ca6-e7b9-4744-9cb0-e312cb3faa94")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR030")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 199.39 49.53 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "609635e7-8ae8-41a2-8240-5579220cf4b3")
-		(property "Reference" "U7"
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 199.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 199.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 199.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 199.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f0")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033bd")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fbc")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb13")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de69")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a483529")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a671")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c2")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911a")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce650")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847b6")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d76")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af2f")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f17")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 6)
 				)
 			)
 		)
@@ -9195,10 +9104,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c43d1a16-7a0e-4c69-8583-4a92385a5896")
+			(uuid "9a8b7ba1-c27b-4f11-a704-772650da26ab")
 		)
 		(pin "2"
-			(uuid "78c2b3e1-92bc-4058-a812-8003cdeca588")
+			(uuid "3fa86627-5140-47db-a833-a8ef0c0d7efb")
 		)
 		(instances
 			(project "PEKG"
@@ -9283,10 +9192,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e2011a5-7cc2-4433-b689-bbc1fad1c819")
+			(uuid "1f982b20-7ab5-4e98-b49f-d236c473e915")
 		)
 		(pin "1"
-			(uuid "eb40c3e7-262d-4b4d-9a45-bfed93f293a4")
+			(uuid "a320f0e4-c756-4784-92d0-33125a577f61")
 		)
 		(instances
 			(project "PEKG"
@@ -9353,7 +9262,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "204bd18f-9e48-4455-8259-2d084b2decfd")
+			(uuid "522c4be5-7759-4a4b-8b11-ecb2bf815dea")
 		)
 		(instances
 			(project "PEKG"
@@ -9428,10 +9337,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cd5223b-bd1a-4fe6-a57a-a06fdd3f9e45")
+			(uuid "d1ef2ebb-7606-4aed-8f9c-9520ed3fa377")
 		)
 		(pin "2"
-			(uuid "19fc907a-8cbb-46ca-ae09-001665df533a")
+			(uuid "71bd8772-a016-4ce2-96a9-41a072f15d89")
 		)
 		(instances
 			(project "PEKG"
@@ -9498,7 +9407,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f01f3b49-0779-4467-ad0e-4d068b54621b")
+			(uuid "683b1fd7-06ec-404b-b3e1-2d676d9c9356")
 		)
 		(instances
 			(project "PEKG"
@@ -9565,22 +9474,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "657be20c-cda7-4636-bb45-b9e1087073c6")
+			(uuid "11a5249d-47ba-4588-b766-b440e77f187f")
 		)
 		(pin "6"
-			(uuid "9dad738f-7c38-4e6d-9ad5-f03a22d2bb8f")
+			(uuid "cc1e4639-53fa-4690-b6fb-cc0dbbbbe74b")
 		)
 		(pin "3"
-			(uuid "e69ead6f-599c-433a-95b6-d660884c0867")
+			(uuid "2806a0f4-084b-4d8e-b2ac-23450db75668")
 		)
 		(pin "2"
-			(uuid "77da3efe-07c1-4e6e-b862-9857f8eb8c41")
+			(uuid "63615021-316f-4db0-9ae6-223448595f9b")
 		)
 		(pin "1"
-			(uuid "20875ce2-3683-4a50-b5c6-780eb53d63e7")
+			(uuid "f369237f-48ff-4002-a5f8-14a1b6755776")
 		)
 		(pin "4"
-			(uuid "6f648ca5-d316-4b9f-a006-d3f4d6aa8c22")
+			(uuid "aa8ab457-4ac8-45ba-9876-6229652b3ca1")
 		)
 		(instances
 			(project "PEKG"
@@ -9647,7 +9556,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec4add45-4f91-4b08-af70-a32eacff1b91")
+			(uuid "f93babaf-d1db-4909-8723-22e3cea320ce")
 		)
 		(instances
 			(project "PEKG"
@@ -9714,7 +9623,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8ec7c39-cf04-4c12-815c-62179fd79bd2")
+			(uuid "20b83c62-d1fd-4ba9-9c9c-8f9188f1d6b9")
 		)
 		(instances
 			(project "PEKG"
@@ -9781,13 +9690,117 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3cc70ed-8974-4584-b3bc-076e995405cd")
+			(uuid "5fcfcfdd-e3f6-42f4-abc3-14acec11c65c")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR056")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 290.83 49.53 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac032ec-b16e-4fa6-8375-a51628712648")
+		(property "Reference" "U7"
+			(at 290.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 290.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 290.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -9811,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
+		(property "Value" "+V_{BAT}"
 			(at 166.37 238.76 0)
 			(effects
 				(font
@@ -9847,117 +9860,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "56b90aa5-0bfd-4609-9d1e-4c5850f6dd92")
+			(uuid "d5c9ed4b-1c44-4946-9748-ffe16289f7ba")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR0118")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 100.33 63.5 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d3507ae-abf0-4d7f-95f1-925e817f6588")
-		(property "Reference" "U7"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f1")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033be")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fbd")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb14")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6a")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352a")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a672")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c3")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911b")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce651")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847b7")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d77")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af30")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f18")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 4)
 				)
 			)
 		)
@@ -10017,7 +9926,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b53ad8bb-294a-4140-bf99-168145cedf22")
+			(uuid "d4839ee6-6edc-4a7f-a9df-1e10c54b8379")
 		)
 		(instances
 			(project "PEKG"
@@ -10082,10 +9991,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d3cbc53-3242-4819-9584-4618b5c5968e")
+			(uuid "3a17eb78-a0e5-4cbb-be3d-d83227c0536f")
 		)
 		(pin "1"
-			(uuid "a32179aa-0d7a-48c5-88f1-c4e66821abb5")
+			(uuid "922b3369-22d7-4143-b300-c329df1f7deb")
 		)
 		(instances
 			(project "PEKG"
@@ -10160,10 +10069,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "144714bb-d313-4c99-b1b1-54a66e681746")
+			(uuid "97316fad-08c9-4e6f-b7f8-bcc6306c0eff")
 		)
 		(pin "2"
-			(uuid "a8b0d07a-8539-4042-8b72-371144f3f5a3")
+			(uuid "3d9fdfad-31c1-49b7-a01f-81cb5d02dd4a")
 		)
 		(instances
 			(project "PEKG"
@@ -10248,10 +10157,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbfb8350-7dab-45df-af31-d84e1c1d05c6")
+			(uuid "8b977b93-4067-48db-b956-386b15fc1105")
 		)
 		(pin "1"
-			(uuid "f1795096-98da-4f7d-ab18-a992144a3e63")
+			(uuid "9271d388-aadf-4ce8-9752-daf10cba4e39")
 		)
 		(instances
 			(project "PEKG"
@@ -10330,13 +10239,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "4a85c9c9-3ff7-4e35-a3e6-5895ca64530c")
+			(uuid "324a35a5-8e0e-4209-a556-121944012441")
 		)
 		(pin "2"
-			(uuid "97e57c7b-5189-4432-8639-3855fff86c74")
+			(uuid "7bc497ba-dc2c-4a3b-b12d-71d319e4b9ff")
 		)
 		(pin "1"
-			(uuid "41fc1731-b393-411e-8375-53f0386ced88")
+			(uuid "b1cf48ef-8839-4ebb-867c-159267f1e620")
 		)
 		(instances
 			(project "PEKG"
@@ -10401,7 +10310,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4c3a121-eaaa-4438-8407-3e5538f2b7a1")
+			(uuid "2866d0ed-ce64-4939-b003-5805da223164")
 		)
 		(instances
 			(project "PEKG"
@@ -10473,10 +10382,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e171049e-a03c-4a24-a0d5-9082edfa3256")
+			(uuid "ad472b5c-2ac1-4275-ba16-9a24392b1b62")
 		)
 		(pin "2"
-			(uuid "8c5de458-a980-4528-8a5d-a2ed9f92a760")
+			(uuid "8beb4255-0835-47a9-a5f5-d8ea94b37b86")
 		)
 		(instances
 			(project "PEKG"
@@ -10550,13 +10459,13 @@
 			(uuid "581773f7-9697-4de3-8201-e0349fe7981f")
 		)
 		(pin "3"
-			(uuid "8be5bb83-4876-480d-87d7-48f116489c6c")
+			(uuid "e2ad7c23-ceb4-4bb9-80d8-39e4b7b5cac6")
 		)
 		(pin "2"
-			(uuid "4eb227c0-135a-440d-8bc9-298619a78efa")
+			(uuid "41d0c64c-d2c6-42a1-af2b-5dc58f59e913")
 		)
 		(pin "1"
-			(uuid "34b29d60-88ff-4e57-ba2e-937120c9c1b8")
+			(uuid "367b18b3-ff24-4ccb-bbe2-5537b3dc166c")
 		)
 		(instances
 			(project "PEKG"
@@ -10623,7 +10532,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "89baf2f5-e4c8-4ef6-8afa-9e7c9fce7a9d")
+			(uuid "e2c35fe7-d89b-4f10-8714-84cc7910de40")
 		)
 		(instances
 			(project "PEKG"
@@ -10696,10 +10605,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a61c0655-8842-4222-a297-f95d60f6e3c6")
+			(uuid "b00e1116-5165-41bd-9aeb-a407528074cc")
 		)
 		(pin "2"
-			(uuid "f26f7871-dcc8-445c-90ff-e1df4bf0bc3a")
+			(uuid "33ab2d56-9872-4717-a21f-b87269adc85d")
 		)
 		(instances
 			(project "PEKG"
@@ -10765,13 +10674,116 @@
 			)
 		)
 		(pin "1"
-			(uuid "b80fe9e0-08d9-454b-9e71-22349843db84")
+			(uuid "bc9f130c-ddfe-4a45-913c-8264e541dc56")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR021")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 290.83 57.15 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "949c1d38-58a7-448b-a4fc-7cf8508af72e")
+		(property "Reference" "U7"
+			(at 312.674 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 312.674 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 290.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 290.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -10843,122 +10855,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "778fc601-b98d-436c-bf59-f1b4ffb971cc")
+			(uuid "1ad0b8f2-8b7f-409f-a9d0-5e32c7184c59")
 		)
 		(pin "3"
-			(uuid "c136392c-14ba-4363-8337-3f2737801213")
+			(uuid "b2222ee6-29ab-4b86-a6ce-878b378bbb59")
 		)
 		(pin "2"
-			(uuid "5145e12a-1665-42be-a8e1-67b38fdf48f3")
+			(uuid "92e70350-7b01-4620-a9c5-ddeb06c958b6")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "Q8")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 290.83 57.15 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98432dd6-37a0-465e-9c77-9ccc77bd6540")
-		(property "Reference" "U7"
-			(at 309.88 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 309.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 290.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 290.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 290.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f2")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033bf")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fbe")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb15")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6b")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352b")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a673")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c4")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911c")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce652")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847b8")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d78")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af31")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f19")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 3)
 				)
 			)
 		)
@@ -11019,7 +10928,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c936b4e-dd8c-4275-ab14-59e99ff4fa2f")
+			(uuid "492c43aa-2490-4ea1-8f43-78cef2138459")
 		)
 		(instances
 			(project "PEKG"
@@ -11091,10 +11000,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "445054cb-94ce-4826-9b4b-8880149c4096")
+			(uuid "4bab9fce-5bca-40e6-8402-0595971d038e")
 		)
 		(pin "2"
-			(uuid "33ca8ef9-c733-4250-a15b-bd97aaeb2a2b")
+			(uuid "297755da-7191-4df8-9c53-545c3f6c23ed")
 		)
 		(instances
 			(project "PEKG"
@@ -11166,10 +11075,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "51eabd76-c253-4019-b9d6-c8b92c1f84d8")
+			(uuid "a3696e3f-6aa7-4af3-a003-1a2a246fee4f")
 		)
 		(pin "2"
-			(uuid "c48113b6-f7b5-47fc-83b8-7c93305e6a15")
+			(uuid "a452f128-881a-48de-8935-1c27f688f107")
 		)
 		(instances
 			(project "PEKG"
@@ -11236,7 +11145,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "31101d4b-7f2a-438c-b2de-869040753409")
+			(uuid "16af4963-2f14-4408-a6a6-20a15cf3d4ba")
 		)
 		(instances
 			(project "PEKG"
@@ -11311,119 +11220,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f9aa6d-d218-490c-8468-4c5b12578e3d")
+			(uuid "adcc7511-62d0-4df6-9f91-17ea0f92ddf0")
 		)
 		(pin "2"
-			(uuid "b18e6a0b-f859-4029-ad6f-cbbd2200b971")
+			(uuid "1062cae3-9d74-4497-9bf2-9f5e550cef2d")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "C3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 199.39 57.15 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d6a9bcb-459f-4c61-b18d-fdaf0ab6da55")
-		(property "Reference" "U7"
-			(at 201.93 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 201.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f3")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033c0")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fbf")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb16")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6c")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352c")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a674")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c5")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911d")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce653")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847b9")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d79")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af32")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f1a")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 5)
 				)
 			)
 		)
@@ -11492,10 +11298,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "71be4e1b-9ac3-492c-8c71-2c84cc049ded")
+			(uuid "c0019618-d8db-4a5c-882a-933b25dd356c")
 		)
 		(pin "2"
-			(uuid "7347f309-471f-42d6-bcda-4f43e8326f1b")
+			(uuid "6b0554e2-25d7-46f6-8282-6b57625cdd7c")
 		)
 		(instances
 			(project "PEKG"
@@ -11568,10 +11374,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9af3b5af-3e53-4423-b9a0-79ce3945b5f7")
+			(uuid "eb96a8a5-6fd6-49aa-be42-e90a941cc70f")
 		)
 		(pin "2"
-			(uuid "1e80d541-a951-4a49-b407-c69a7b0b126b")
+			(uuid "4d7cfb0a-7a39-46f9-87b3-87fe95449548")
 		)
 		(instances
 			(project "PEKG"
@@ -11638,7 +11444,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ae94a8b-6603-4dad-bf13-315a73232772")
+			(uuid "3be6128c-9959-45e0-b9a2-675dce446dba")
 		)
 		(instances
 			(project "PEKG"
@@ -11713,10 +11519,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0808436b-1d27-456f-be4d-f5b74145faf5")
+			(uuid "115d317a-dd36-4854-943f-6c6e7566a5ec")
 		)
 		(pin "2"
-			(uuid "c27bcd9b-687a-45ac-a705-dad82242bace")
+			(uuid "6ccc86b1-eda7-4400-80fe-d5a0ddd85bd8")
 		)
 		(instances
 			(project "PEKG"
@@ -11827,10 +11633,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7c81e35-5b7f-46de-bee6-6c5a53656a9f")
+			(uuid "f0807ee4-4b3b-4e70-b837-0b8ea668a910")
 		)
 		(pin "2"
-			(uuid "49cf268e-aad5-4342-9964-fa6841f856a5")
+			(uuid "1cde940a-bec5-46a8-a7e6-ec6673669d50")
 		)
 		(instances
 			(project "PEKG"
@@ -11906,16 +11712,119 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e6f34de-f936-4850-922e-a9d2ddcaa38d")
+			(uuid "0262b57c-12a3-4447-9cac-c2e8196d523f")
 		)
 		(pin "2"
-			(uuid "6bf6486f-b200-41ae-a776-d67639f27823")
+			(uuid "ed988e21-7333-4fee-8ac3-2f6cb37625e9")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "D6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 199.39 57.15 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2535c85-a9a1-4572-9e3a-1df7665f1453")
+		(property "Reference" "U7"
+			(at 201.168 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 201.168 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U7")
+					(unit 5)
 				)
 			)
 		)
@@ -11988,13 +11897,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "a860691c-eecf-4c71-9099-d2e907a2dde3")
+			(uuid "acd7ff44-cb38-4fe9-a352-3bbe4790cf2d")
 		)
 		(pin "2"
-			(uuid "8be10630-9e63-4539-b35e-32325e88bbe0")
+			(uuid "674752ea-582c-49d1-b6d2-dab004c4f2e2")
 		)
 		(pin "1"
-			(uuid "6f7e5cee-c966-474d-bebe-4a0282337ccc")
+			(uuid "d05a62a2-ae5e-4626-bc2b-ffb781631ce8")
 		)
 		(instances
 			(project "PEKG"
@@ -12061,7 +11970,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "336b8eea-ee5f-411f-8d2e-cc61bca52366")
+			(uuid "7796fd35-7615-47a6-bd13-e098f7a42aee")
 		)
 		(instances
 			(project "PEKG"
@@ -12146,10 +12055,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "abd20bb2-4371-4954-bcfd-057d5d5b7a19")
+			(uuid "b240ac4e-992d-442d-9777-d3a4eb0db0ab")
 		)
 		(pin "1"
-			(uuid "b1a01395-102f-4756-82fc-36246c731e2a")
+			(uuid "b879010e-b414-45d5-95e0-a835e45e17d8")
 		)
 		(instances
 			(project "PEKG"
@@ -12234,10 +12143,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "120c17c5-bff6-4ffd-8f83-8e5ad008feb9")
+			(uuid "6bff868b-cde2-4d18-b136-d630db09f962")
 		)
 		(pin "1"
-			(uuid "e0b5049a-7065-426a-87e8-f85e1d9b872f")
+			(uuid "ab7f3397-7ec2-462b-9ef6-ae83834654ab")
 		)
 		(instances
 			(project "PEKG"
@@ -12315,13 +12224,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "97e4b7e9-f5ad-48e9-861b-24bee8aa5080")
+			(uuid "cc00c234-e09e-4609-8663-99bab1ea3482")
 		)
 		(pin "3"
-			(uuid "6b9bb04b-7fa0-4761-82f7-7f057c0f55c8")
+			(uuid "9cee313d-7556-45b1-b30c-28bd299fc53c")
 		)
 		(pin "2"
-			(uuid "add29718-ddea-4a54-b233-9f77ab8cda78")
+			(uuid "e6a22213-2a2a-4cb1-bf57-492792d685ec")
 		)
 		(instances
 			(project "PEKG"
@@ -12387,7 +12296,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd32090d-dbde-4539-bf85-90bb6cc6730d")
+			(uuid "c5e52f21-8514-4984-b9ea-cf22f54475b1")
 		)
 		(instances
 			(project "PEKG"
@@ -12453,12 +12362,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fd57071-2098-4bde-944a-593f962fdef7")
+			(uuid "29a371a1-d3a1-4001-aee3-ddfd610d18bc")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 36.83 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3aa5062-9e13-4f3b-9fa7-735b7ded494d")
+		(property "Reference" "#PWR046"
+			(at 36.83 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{USB}"
+			(at 36.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 36.83 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98cbd5ed-c268-47a7-84e6-21e1bb6094dd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12519,10 +12494,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "98d85dbc-431c-4f29-89d3-4ec863bfad9d")
+			(uuid "4aaa4b43-d78c-45a8-b79b-d7ce88a9f799")
 		)
 		(pin "1"
-			(uuid "576f0ff7-bd78-4aa8-b8b5-d0dec7de991c")
+			(uuid "f1f74631-ee59-476c-81a9-dd4ff797b986")
 		)
 		(instances
 			(project "PEKG"
@@ -12589,7 +12564,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "08c1532a-2d42-4774-939b-40a82ce8938b")
+			(uuid "c1f69d80-4c91-4a99-9087-2dfed4e1a6a7")
 		)
 		(instances
 			(project "PEKG"
@@ -12674,10 +12649,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "520cb07e-8c97-45ff-928a-0972252b28bf")
+			(uuid "f8984041-fe75-4a0f-b711-0ffb9cc387b9")
 		)
 		(pin "1"
-			(uuid "fb9666e0-aca5-4cbf-8641-4c87e97ec5f4")
+			(uuid "67d599bc-9177-4fec-b966-6ebba9d96390")
 		)
 		(instances
 			(project "PEKG"
@@ -12744,7 +12719,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c520b7bd-434b-414d-b9bc-784eb523f352")
+			(uuid "de5ce3c3-6e6c-486a-aa77-a79211d8110f")
 		)
 		(instances
 			(project "PEKG"
@@ -12816,10 +12791,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f90cb44-a8a8-4a2a-8db0-59ce5eb9791c")
+			(uuid "0e11fdc5-e487-44bb-8fab-db6c39dccc02")
 		)
 		(pin "2"
-			(uuid "a723036a-5277-4e22-8547-e52a59b6a1ee")
+			(uuid "96e9e96a-0d5f-48b3-86fb-b329754d6f57")
 		)
 		(instances
 			(project "PEKG"
@@ -12886,7 +12861,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d8819e5-1872-46c0-9f47-75beb2aa8c4a")
+			(uuid "1e50be27-9d5e-4096-b33b-64b95041cff3")
 		)
 		(instances
 			(project "PEKG"
@@ -12952,115 +12927,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "45a77343-dcd3-40ee-b3b1-1896e79c0af4")
+			(uuid "bab5124a-7e19-4f01-9184-f5bc70ffab28")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 290.83 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d54739d5-6ba7-4462-bf45-62f8f4ff68a9")
-		(property "Reference" "U7"
-			(at 293.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 293.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 290.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 290.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 290.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f4")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033c1")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fc0")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb17")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6d")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352d")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a675")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c6")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911e")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce654")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847ba")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d7a")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af33")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f1b")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13130,10 +13002,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1f0e6f7-acdb-4133-9041-f5ec194912bc")
+			(uuid "4301e075-b372-4b5d-9646-02849d095303")
 		)
 		(pin "2"
-			(uuid "5d9d07df-e783-489d-ad01-5e798de0eba7")
+			(uuid "84cb72c1-c1ff-450d-bb69-bc396bafe2b2")
 		)
 		(instances
 			(project "PEKG"
@@ -13211,13 +13083,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "79c7dd13-e8bc-4b7b-bcb7-aa1270788d22")
+			(uuid "87411cf0-acdb-4303-a592-66b20082081f")
 		)
 		(pin "2"
-			(uuid "220e28f4-3c0e-4405-b52f-ef5cbaa528c1")
+			(uuid "a1cac0e9-592d-43c4-9659-6983bde36e98")
 		)
 		(pin "1"
-			(uuid "56c6752f-3a9c-48fb-b429-eb797ebd0f46")
+			(uuid "3646dd1c-948a-435d-93b6-87123d8fd250")
 		)
 		(instances
 			(project "PEKG"
@@ -13292,10 +13164,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0644b07e-a585-4a75-96e7-5d12de7d0d43")
+			(uuid "34923dc6-8ef7-4d1c-af37-b9ab155f03f5")
 		)
 		(pin "2"
-			(uuid "e9694092-910e-4082-997b-8193a64bab93")
+			(uuid "41efe2a6-46c7-4fba-be62-d034f74195b2")
 		)
 		(instances
 			(project "PEKG"
@@ -13362,7 +13234,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "704d200a-44ac-44af-b486-fa7bbf4ff71e")
+			(uuid "93a89ee8-c29f-4550-8ee9-bd289d453a63")
 		)
 		(instances
 			(project "PEKG"
@@ -13437,10 +13309,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fb2d8ff-c752-4e31-93f3-2625b9512b19")
+			(uuid "3b6ea9d2-ac16-4765-b3dc-9f510587c3f3")
 		)
 		(pin "2"
-			(uuid "7f80fd87-f407-4281-9c14-bbdf84088bab")
+			(uuid "acf7b88b-c850-497d-90a9-914c78b2cf01")
 		)
 		(instances
 			(project "PEKG"
@@ -13507,7 +13379,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "25a1b979-509b-4206-8ddd-34be0518d72e")
+			(uuid "a7dae1ac-22f3-4bc7-92db-708ffa54f3c4")
 		)
 		(instances
 			(project "PEKG"
@@ -13586,13 +13458,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "c47c1995-7924-4225-b92a-528b765bbb57")
+			(uuid "5d870993-8019-46f9-82bb-fd1422b08eba")
 		)
 		(pin "2"
-			(uuid "dd17edd2-94d6-4927-bec8-64f4ff87c407")
+			(uuid "12b2e52a-a7cd-40a8-ad30-0816de596120")
 		)
 		(pin "1"
-			(uuid "8d06c3ba-dd86-4294-af08-6f590c723c28")
+			(uuid "f41cb62a-987d-4fb6-b9bf-6593aaef0c9f")
 		)
 		(instances
 			(project "PEKG"
@@ -13667,10 +13539,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a49703a1-12a4-45df-83a2-1e81c443bef1")
+			(uuid "3e9988b2-eb4c-496b-9332-34ad492b5efe")
 		)
 		(pin "2"
-			(uuid "4434a38f-1c35-4ae5-8df0-7a12ab92bcb8")
+			(uuid "40bf9103-5164-49a0-a77c-8d697e8ce97d")
 		)
 		(instances
 			(project "PEKG"
@@ -13755,15 +13627,81 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a66aee7-faaf-4d0f-bc06-aa9eb838211a")
+			(uuid "23dd5a61-6722-41a4-8c5a-34775f5feb41")
 		)
 		(pin "1"
-			(uuid "025eef1c-6a59-481c-822a-3c1351e3dc49")
+			(uuid "3439dcce-9497-4517-a753-6581b5885e2b")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 113.03 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ac3352-6beb-4da0-b81d-692a97b9e6ff")
+		(property "Reference" "#PWR048"
+			(at 113.03 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{USB}"
+			(at 113.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 113.03 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c32661-664c-4983-bd8d-555b49bac8cd")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13830,10 +13768,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c82c56e-6cac-4baf-bb4f-a3deb2463be2")
+			(uuid "80e91bcb-c6f3-4d34-a396-2195f513ee41")
 		)
 		(pin "2"
-			(uuid "59975a61-e3d6-46c3-b970-139ddd86a4e8")
+			(uuid "b2702ff5-7604-479a-9675-8a6e77b7b684")
 		)
 		(instances
 			(project "PEKG"
@@ -13918,10 +13856,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "998b4ea0-dda7-4a69-b6d1-e6e92f54e354")
+			(uuid "8b1899ee-d935-4851-a2c5-bd2fb5c35828")
 		)
 		(pin "1"
-			(uuid "8b1d7ac5-d9f0-4819-bad2-0df3b21650aa")
+			(uuid "90283e79-8bb0-4ed4-90f6-c78d03973d89")
 		)
 		(instances
 			(project "PEKG"
@@ -13988,15 +13926,291 @@
 			)
 		)
 		(pin "2"
-			(uuid "73f72311-b5ff-4cf7-922f-81b2df75653f")
+			(uuid "eedf6066-f0d2-4e75-9288-4292d44ef417")
 		)
 		(pin "1"
-			(uuid "09955a7c-8a6b-4721-ae5e-9fc2458f9fe7")
+			(uuid "d641918d-6bbb-4c08-8857-de1274eadbcb")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 55.88 62.23 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d11805-5bad-4aa8-972f-80efe0cb8738")
+		(property "Reference" "U8"
+			(at 62.23 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 62.23 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U8")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC14")
+		(at 100.33 63.5 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d45360-93f9-4baa-96a0-61d5b056e950")
+		(property "Reference" "U7"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d98abdf0-838e-4dcf-bbd5-e53516ca270b")
+		)
+		(pin "12"
+			(uuid "eaf6e963-b10d-4f76-ae54-5b4ed37a8d1b")
+		)
+		(pin "2"
+			(uuid "86bd549a-9156-4859-9bc8-ad3c3dd1b82a")
+		)
+		(pin "10"
+			(uuid "ac223335-ce75-4258-9819-e4fb6fcae3a2")
+		)
+		(pin "14"
+			(uuid "c535bf9f-2dfd-4bbb-b57d-140e83aa9377")
+		)
+		(pin "4"
+			(uuid "500a7117-6e71-4e9f-9717-ddbcf30d83db")
+		)
+		(pin "13"
+			(uuid "812662d4-35da-4869-97e3-fd0b41e9cd0c")
+		)
+		(pin "6"
+			(uuid "5efa79c7-352b-4068-bb9d-ce087eac1008")
+		)
+		(pin "9"
+			(uuid "1ccbff6c-7594-4a82-be7b-e267fe913d69")
+		)
+		(pin "3"
+			(uuid "a00319f8-f3f6-4116-8d0b-7974abd10e17")
+		)
+		(pin "7"
+			(uuid "ad69514e-4cc7-4cbb-a268-3323924d8155")
+		)
+		(pin "8"
+			(uuid "820bf435-68ea-4ae3-b00c-16e7783fdcdb")
+		)
+		(pin "1"
+			(uuid "08f33225-470a-4277-8504-44a8ed39895f")
+		)
+		(pin "11"
+			(uuid "df8c542c-ef3c-41fa-bd41-b566cf99edcd")
+		)
+		(instances
+			(project ""
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 69.85 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaeab131-2557-4ac2-bf2d-c6f66923c60f")
+		(property "Reference" "#PWR047"
+			(at 69.85 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_{USB}"
+			(at 69.85 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 69.85 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f799d9a-8bd3-4f90-9fa1-945164106ca8")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14058,10 +14272,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e672da61-9212-4331-9eb5-88c826c7dbef")
+			(uuid "9961f127-55ea-4afd-ad4a-9af717a4c140")
 		)
 		(pin "1"
-			(uuid "3fa80c92-ecdb-4479-9357-7e49aa82291b")
+			(uuid "9df546af-8747-4279-a7f3-4339e69f0dcb")
 		)
 		(instances
 			(project "PEKG"
@@ -14127,7 +14341,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fdf6794-167f-41b5-9635-49d341ae6b52")
+			(uuid "e5317676-5d67-4125-a35a-efb6ac3f783b")
 		)
 		(instances
 			(project "PEKG"
@@ -14192,119 +14406,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "9664a59d-2774-46e2-a1ca-663babd31a31")
+			(uuid "641de6ed-add2-43f0-9e90-67e6b1be136a")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR0104")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 55.88 62.23 0)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeedba6e-7eff-4b04-b062-c5c357d84027")
-		(property "Reference" "U7"
-			(at 62.23 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 62.23 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 55.88 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f5")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033c2")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fc1")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb18")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6e")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352e")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a676")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c7")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a0678911f")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce655")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847bb")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d7b")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af34")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f1c")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 7)
 				)
 			)
 		)
@@ -14370,10 +14478,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "48a4be3f-7f0f-4b7a-9c43-bdafa4f67cd1")
+			(uuid "fe4f8e88-51a0-4d29-9645-9a5c6aae05dc")
 		)
 		(pin "2"
-			(uuid "4ee74a04-b644-4ca3-b515-4f3c542e8ae7")
+			(uuid "76e38d4c-1e72-495b-aae2-7af4dc498d1b")
 		)
 		(instances
 			(project "PEKG"
@@ -14440,7 +14548,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "846b3d06-7ea0-41e4-bc33-985ed9aed96e")
+			(uuid "2d11a628-e525-4577-ba77-52ade697aa41")
 		)
 		(instances
 			(project "PEKG"
@@ -14515,10 +14623,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "11a463dd-e67d-4d65-96e1-1d3cab03f2d3")
+			(uuid "2e93314c-dbc0-4bb0-a8d2-21b3bbe41180")
 		)
 		(pin "2"
-			(uuid "92f561f1-70d7-49fe-97cf-e6d91cf769a9")
+			(uuid "d7efc809-6226-412d-9011-4fb351f8b6f7")
 		)
 		(instances
 			(project "PEKG"
@@ -14585,7 +14693,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "817a4691-1578-4575-8fc2-182511f9da3c")
+			(uuid "02d14925-9c85-47a2-8597-bc243a8ec86b")
 		)
 		(instances
 			(project "PEKG"
@@ -14670,10 +14778,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b6a58afc-5301-448c-9722-606e76ea145a")
+			(uuid "a2a0d916-61db-4ef4-95e6-681967fb6031")
 		)
 		(pin "1"
-			(uuid "7db39cff-0525-4aa6-906d-cc4076238e92")
+			(uuid "f66ef1d7-a019-4911-9229-e42b50915695")
 		)
 		(instances
 			(project "PEKG"
@@ -14739,116 +14847,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e4fafb0-d708-4c6e-9dbe-8eeb97116868")
+			(uuid "b5e684d0-d70d-47a4-8a14-4f3311cc6f3d")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "#PWR0115")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC14")
-		(at 290.83 49.53 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc96b889-ef61-415d-9cb7-39367965555b")
-		(property "Reference" "U7"
-			(at 297.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC14"
-			(at 297.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 290.83 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 290.83 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 290.83 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a5510f6a-db2d-42f4-a783-e38c1dd377f6")
-		)
-		(pin "7"
-			(uuid "a9bc54db-1bb0-44fa-9415-e2130d6033c3")
-		)
-		(pin "14"
-			(uuid "7badf009-5bb0-49dc-9a80-747b15566fc2")
-		)
-		(pin "10"
-			(uuid "7dc8ffd8-c355-4c46-b3d6-4c40dfa7bb19")
-		)
-		(pin "12"
-			(uuid "f7573ae5-bb2b-4f2f-a3b8-0f25a946de6f")
-		)
-		(pin "8"
-			(uuid "5308f5e2-2b99-4482-b254-19a93a48352f")
-		)
-		(pin "6"
-			(uuid "71c09a62-c742-48da-af8e-c06fc119a677")
-		)
-		(pin "5"
-			(uuid "b76d4651-67be-4711-b0ef-d23a4ffd69c8")
-		)
-		(pin "4"
-			(uuid "efb12cd4-2745-4c5d-b7c8-150a06789120")
-		)
-		(pin "9"
-			(uuid "8cd52b90-4dcc-40e4-bc79-f604902ce656")
-		)
-		(pin "13"
-			(uuid "4aeee0d9-8395-46de-a311-887dc4c847bc")
-		)
-		(pin "3"
-			(uuid "d753f234-1386-475a-bc38-62d616db0d7c")
-		)
-		(pin "2"
-			(uuid "83aae5a8-b0dd-42e1-a074-6af5db75af35")
-		)
-		(pin "1"
-			(uuid "3c9c2431-494d-4f5c-9ce9-7ba9a0111f1d")
-		)
-		(instances
-			(project ""
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "U7")
-					(unit 2)
 				)
 			)
 		)
@@ -14953,10 +14958,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67bd28e7-1944-487b-bb80-4662962f87fa")
+			(uuid "ff0d1547-fb21-4845-896f-fae2df1ecbc4")
 		)
 		(pin "2"
-			(uuid "299a2a1b-00b5-45af-9507-23be098d459d")
+			(uuid "90b41c4b-dbfe-4c83-9102-073ae461e09e")
 		)
 		(instances
 			(project "PEKG"
@@ -15023,7 +15028,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "02b44662-3ee0-40a4-bd49-24e82d791cb5")
+			(uuid "86117e3a-b4f4-4e9d-adc4-ef88b328fd2b")
 		)
 		(instances
 			(project "PEKG"
