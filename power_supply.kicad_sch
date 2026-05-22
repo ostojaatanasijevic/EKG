@@ -3596,7 +3596,7 @@
 	)
 	(text_box "Check value"
 		(exclude_from_sim no)
-		(at 247.65 251.46 0)
+		(at 259.08 251.46 0)
 		(size 13.97 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3616,7 +3616,7 @@
 	)
 	(text_box "ADD 3 PIN CONNECTOR FOR SMALL LIPO BATTERY\n"
 		(exclude_from_sim no)
-		(at 132.08 232.41 0)
+		(at 189.23 227.33 0)
 		(size 20.32 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3633,6 +3633,26 @@
 			(justify left top)
 		)
 		(uuid "4e4584c1-b8dd-4709-9013-e510ba38d10a")
+	)
+	(text_box "PLACE BELOW BATTERY\n"
+		(exclude_from_sim no)
+		(at 129.54 255.27 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bdafc10b-40c7-4737-8b0b-57fe77669d64")
 	)
 	(text_box "500 mA charge current\n"
 		(exclude_from_sim no)
@@ -3654,10 +3674,10 @@
 		)
 		(uuid "f3307649-5f8b-48d4-bec2-d8ba206bceb2")
 	)
-	(text_box "18 mA consumption\n"
+	(text_box "18 mA capable\n"
 		(exclude_from_sim no)
-		(at 33.02 187.96 0)
-		(size 111.76 20.574)
+		(at 39.37 173.99 0)
+		(size 31.75 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3668,9 +3688,8 @@
 		)
 		(effects
 			(font
-				(size 6.35 6.35)
-				(thickness 1.27)
-				(bold yes)
+				(size 2.54 2.54)
+				(thickness 0.3175)
 				(color 194 0 0 1)
 			)
 			(justify left top)
@@ -3738,7 +3757,7 @@
 		(uuid "34c6f41f-4007-47da-95dc-b48a1705db86")
 	)
 	(junction
-		(at 181.61 247.65)
+		(at 193.04 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35eb1259-5f22-41cb-a4db-b9a316f4e69b")
@@ -3750,7 +3769,7 @@
 		(uuid "3a6563b6-5fca-4d1d-bf92-514a1c35fb3a")
 	)
 	(junction
-		(at 166.37 265.43)
+		(at 177.8 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f5b6af4-8039-4df9-b62a-9e995e93f5cc")
@@ -3762,7 +3781,7 @@
 		(uuid "4c6f69de-17f4-4c7b-ba74-2cf8dfb737f5")
 	)
 	(junction
-		(at 181.61 265.43)
+		(at 193.04 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52677fb6-2cf9-4e82-b714-fbbe10fec7e3")
@@ -3810,7 +3829,7 @@
 		(uuid "69f4c8ec-9f51-4eab-8d49-f9c78f194cd2")
 	)
 	(junction
-		(at 238.76 265.43)
+		(at 250.19 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "714dfe95-8aba-4d12-bc95-9052e674384f")
@@ -3846,7 +3865,7 @@
 		(uuid "a90023f7-ed80-41aa-82e1-7948825a13b0")
 	)
 	(junction
-		(at 193.04 265.43)
+		(at 204.47 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b115d05c-e868-4154-b3fb-cb8431f3aa30")
@@ -3864,7 +3883,7 @@
 		(uuid "b718a65b-a56c-485a-9d3e-409cce46f58e")
 	)
 	(junction
-		(at 166.37 247.65)
+		(at 177.8 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b870f8ff-676b-45fb-a804-1a69bbca3c81")
@@ -4053,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 265.43) (xy 238.76 265.43)
+			(xy 246.38 265.43) (xy 250.19 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4093,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 265.43) (xy 166.37 269.24)
+			(xy 177.8 265.43) (xy 177.8 269.24)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 247.65) (xy 181.61 247.65)
+			(xy 190.5 247.65) (xy 193.04 247.65)
 		)
 		(stroke
 			(width 0)
@@ -4223,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 247.65) (xy 181.61 251.46)
+			(xy 193.04 247.65) (xy 193.04 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4373,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 267.97) (xy 238.76 265.43)
+			(xy 250.19 267.97) (xy 250.19 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4423,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 251.46) (xy 229.87 251.46)
+			(xy 227.33 251.46) (xy 241.3 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4592,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 265.43) (xy 213.36 265.43)
+			(xy 204.47 265.43) (xy 224.79 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4623,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 257.81) (xy 238.76 265.43)
+			(xy 250.19 257.81) (xy 250.19 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 265.43) (xy 181.61 265.43)
+			(xy 177.8 265.43) (xy 193.04 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4732,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 265.43) (xy 224.79 265.43)
+			(xy 234.95 265.43) (xy 236.22 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4823,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 250.19) (xy 238.76 247.65)
+			(xy 250.19 250.19) (xy 250.19 247.65)
 		)
 		(stroke
 			(width 0)
@@ -4833,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 259.08) (xy 166.37 265.43)
+			(xy 177.8 259.08) (xy 177.8 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 265.43) (xy 193.04 265.43)
+			(xy 193.04 265.43) (xy 204.47 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5242,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 247.65) (xy 195.58 247.65)
+			(xy 193.04 247.65) (xy 207.01 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5273,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 255.27) (xy 215.9 255.27)
+			(xy 229.87 255.27) (xy 227.33 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5283,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 247.65) (xy 238.76 247.65)
+			(xy 227.33 247.65) (xy 250.19 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 247.65) (xy 166.37 247.65)
+			(xy 173.99 247.65) (xy 177.8 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 259.08) (xy 181.61 265.43)
+			(xy 193.04 259.08) (xy 193.04 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 247.65) (xy 166.37 251.46)
+			(xy 177.8 247.65) (xy 177.8 251.46)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 255.27) (xy 193.04 265.43)
+			(xy 204.47 255.27) (xy 204.47 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5593,7 +5612,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 255.27) (xy 193.04 255.27)
+			(xy 207.01 255.27) (xy 204.47 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 243.84) (xy 166.37 247.65)
+			(xy 177.8 243.84) (xy 177.8 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5783,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 247.65) (xy 171.45 247.65)
+			(xy 177.8 247.65) (xy 182.88 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5933,7 +5952,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 251.46) (xy 229.87 257.81)
+			(xy 241.3 251.46) (xy 241.3 257.81)
 		)
 		(stroke
 			(width 0)
@@ -5953,7 +5972,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 255.27) (xy 218.44 257.81)
+			(xy 229.87 255.27) (xy 229.87 257.81)
 		)
 		(stroke
 			(width 0)
@@ -6345,7 +6364,7 @@
 	)
 	(hierarchical_label "+V_{BAT}"
 		(shape output)
-		(at 162.56 247.65 180)
+		(at 173.99 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6356,7 +6375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 247.65 90)
+		(at 186.69 247.65 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6365,7 +6384,7 @@
 		(dnp no)
 		(uuid "00114acd-790e-4ab8-8696-7ffdff127592")
 		(property "Reference" "R30"
-			(at 175.26 241.3 90)
+			(at 186.69 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6392,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 175.26 243.84 90)
+			(at 186.69 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6400,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 175.26 245.872 90)
+			(at 186.69 245.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 247.65 0)
+			(at 186.69 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 247.65 0)
+			(at 186.69 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +6427,7 @@
 			)
 		)
 		(property "LCSC" "C23138"
-			(at 175.26 247.65 90)
+			(at 186.69 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7492,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 254 180)
+		(at 250.19 254 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7482,7 +7501,7 @@
 		(fields_autoplaced yes)
 		(uuid "203a5838-4229-4748-997c-a5ac89e394ec")
 		(property "Reference" "R8"
-			(at 241.3 252.7299 0)
+			(at 252.73 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7510,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 241.3 255.2699 0)
+			(at 252.73 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7519,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.538 254 90)
+			(at 251.968 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 254 0)
+			(at 250.19 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 254 0)
+			(at 250.19 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7546,7 @@
 			)
 		)
 		(property "LCSC" "C13167"
-			(at 238.76 254 0)
+			(at 250.19 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS100M08KV:DPDT_bigger"
+		(property "Footprint" "PEKG:SW_EG1271"
 			(at 367.03 68.58 0)
 			(effects
 				(font
@@ -8340,7 +8359,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51ca8385-e17e-47d9-a7ad-8d3586e9784b")
 		(property "Reference" "R25"
 			(at 123.19 256.5399 0)
@@ -8352,7 +8370,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 123.19 259.0799 0)
+			(at 123.19 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,6 +8411,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Type" "NTC"
+			(at 123.19 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8478,7 +8505,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 267.97 0)
+		(at 250.19 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8487,7 +8514,7 @@
 		(fields_autoplaced yes)
 		(uuid "56f8d668-1899-4fa7-a5b8-050c9bf7ced8")
 		(property "Reference" "#PWR045"
-			(at 238.76 274.32 0)
+			(at 250.19 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +8523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 273.05 0)
+			(at 250.19 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 267.97 0)
+			(at 250.19 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 267.97 0)
+			(at 250.19 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 267.97 0)
+			(at 250.19 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8686,7 @@
 	)
 	(symbol
 		(lib_id "PEKG_lib:AP9101CK6")
-		(at 205.74 251.46 0)
+		(at 217.17 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8668,7 +8695,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad20f40-417f-4723-a98b-b967b6e00903")
 		(property "Reference" "U11"
-			(at 205.74 241.3 0)
+			(at 217.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8703,7 @@
 			)
 		)
 		(property "Value" "AP9101CK6"
-			(at 205.74 243.84 0)
+			(at 217.17 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +8711,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 207.518 268.478 0)
+			(at 218.948 268.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8720,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP9101C.pdf"
-			(at 213.614 271.526 0)
+			(at 225.044 271.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8729,7 @@
 			)
 		)
 		(property "Description" "Li+ Battery Protection IC for Single Cell Pack, SOT-23-6"
-			(at 208.534 263.906 0)
+			(at 219.964 263.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9834,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 166.37 243.84 0)
+		(at 177.8 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9816,7 +9843,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cd0ce50-f5df-4d4a-8db1-75c8d5a98a06")
 		(property "Reference" "#PWR0118"
-			(at 166.37 247.65 0)
+			(at 177.8 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9852,7 @@
 			)
 		)
 		(property "Value" "+V_{BAT}"
-			(at 166.37 238.76 0)
+			(at 177.8 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +9860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 243.84 0)
+			(at 177.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 243.84 0)
+			(at 177.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +9878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 166.37 243.84 0)
+			(at 177.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,6 +10349,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 386.08 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84da6c52-1430-453b-b16f-beaf8a57891b")
+		(property "Reference" "D3"
+			(at 389.89 58.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN_LED"
+			(at 389.89 61.2774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 386.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 386.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 386.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 386.08 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "690edcff-763a-4e87-8389-888a40bd289d")
+		)
+		(pin "1"
+			(uuid "c1db018b-0c98-4e89-8b84-c9dac239ef8b")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 33.02 90)
 		(unit 1)
@@ -10422,7 +10536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS100M08KV:DPDT_bigger"
+		(property "Footprint" "PEKG:SW_EG1271"
 			(at 367.03 49.53 0)
 			(effects
 				(font
@@ -11313,6 +11427,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a65385-2f6f-4a56-84f7-0325cf98c0d3")
+		(property "Reference" "D5"
+			(at 116.84 239.0774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED_LED"
+			(at 116.84 241.6174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 113.03 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13ff3475-399f-40eb-aa37-2728b6c2386c")
+		)
+		(pin "1"
+			(uuid "e900205a-c2a0-49ca-aec6-a65012639f5d")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 115.57 270)
 		(unit 1)
@@ -11457,7 +11658,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 255.27 180)
+		(at 193.04 255.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11466,7 +11667,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab41efae-f0c4-4e47-89cb-8ebae9edb5c3")
 		(property "Reference" "C6"
-			(at 185.42 253.9999 0)
+			(at 196.85 253.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,7 +11676,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 185.42 256.5399 0)
+			(at 196.85 256.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +11685,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 180.6448 251.46 0)
+			(at 192.0748 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 255.27 0)
+			(at 193.04 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 255.27 0)
+			(at 193.04 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11711,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 181.61 255.27 90)
+			(at 193.04 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,85 +11843,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 113.03 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae7a5fb7-b497-4639-881c-80dcc699b6dd")
-		(property "Reference" "D6"
-			(at 116.84 239.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 116.84 241.6174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 113.03 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 113.03 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0262b57c-12a3-4447-9cac-c2e8196d523f")
-		)
-		(pin "2"
-			(uuid "ed988e21-7333-4fee-8ac3-2f6cb37625e9")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13018,7 +13140,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 218.44 262.89 270)
+		(at 229.87 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13026,7 +13148,7 @@
 		(dnp no)
 		(uuid "d705bae0-a393-4c84-b8db-1d84424f37bd")
 		(property "Reference" "Q3"
-			(at 222.25 268.732 90)
+			(at 233.68 268.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,7 +13157,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 222.25 271.272 90)
+			(at 233.68 271.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13044,7 +13166,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 216.535 267.97 0)
+			(at 227.965 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +13177,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 214.63 267.97 0)
+			(at 226.06 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13065,7 +13187,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 218.44 262.89 0)
+			(at 229.87 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,7 +13196,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 218.44 262.89 0)
+			(at 229.87 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13392,7 +13514,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 229.87 262.89 90)
+		(at 241.3 262.89 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13401,7 +13523,7 @@
 		(dnp no)
 		(uuid "df39e6bf-f221-4e8c-b7dd-72c881975271")
 		(property "Reference" "Q5"
-			(at 226.06 268.732 90)
+			(at 237.49 268.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,7 +13532,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 226.06 271.272 90)
+			(at 237.49 271.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13541,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 231.775 267.97 0)
+			(at 243.205 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13552,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 233.68 267.97 0)
+			(at 245.11 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13440,7 +13562,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 229.87 262.89 0)
+			(at 241.3 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +13571,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 229.87 262.89 0)
+			(at 241.3 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13872,7 +13994,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 166.37 256.54 0)
+		(at 177.8 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13880,7 +14002,7 @@
 		(dnp no)
 		(uuid "e678773d-3e33-4fb3-9f61-ea95c6ec7da2")
 		(property "Reference" "BT2"
-			(at 170.18 253.4284 0)
+			(at 181.61 253.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +14011,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 170.18 255.9684 0)
+			(at 181.61 255.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +14021,7 @@
 			)
 		)
 		(property "Footprint" "PEKG:battery_holder"
-			(at 166.37 255.016 90)
+			(at 177.8 255.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 255.016 90)
+			(at 177.8 255.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +14039,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 166.37 256.54 0)
+			(at 177.8 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14288,7 +14410,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 166.37 269.24 180)
+		(at 177.8 269.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14297,7 +14419,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebc9c3b8-f445-4452-85db-a34c7c0b7f3b")
 		(property "Reference" "#PWR0120"
-			(at 166.37 265.43 0)
+			(at 177.8 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +14428,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 166.37 274.32 0)
+			(at 177.8 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +14436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 269.24 0)
+			(at 177.8 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 269.24 0)
+			(at 177.8 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 166.37 269.24 0)
+			(at 177.8 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
