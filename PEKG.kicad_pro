@@ -690,6 +690,10 @@
     [
       "0d4ea742-5b63-4b37-8bef-d162cee54c1e",
       "MCU"
+    ],
+    [
+      "08c9054c-da89-41a7-9688-42f4044db3d5",
+      "Amplifier"
     ]
   ],
   "text_variables": {}

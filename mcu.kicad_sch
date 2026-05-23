@@ -1623,9 +1623,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ADD ON LED\n"
+	(text "ADD ON BLUETOOTH BUTTON, LED\nADD PAIR BUTTON, LED"
 		(exclude_from_sim no)
-		(at 53.086 107.696 0)
+		(at 19.05 120.65 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -1758,6 +1758,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 40.64) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d72a67d-189b-4cf9-8843-72976c1f0135")
+	)
+	(wire
+		(pts
 			(xy 155.1712 73.66) (xy 163.83 73.66)
 		)
 		(stroke
@@ -1835,6 +1845,16 @@
 			(type default)
 		)
 		(uuid "b23b09dd-dd2f-41d0-9fa2-1cdf49007b89")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583bbef-abb8-449e-bd83-7c7c8062d8cb")
 	)
 	(wire
 		(pts
@@ -1997,7 +2017,18 @@
 		)
 		(uuid "32ffd7b3-c53a-48e5-ac5e-2dfa0e22289b")
 	)
-	(hierarchical_label "ADC1"
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 166.37 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67fe3be6-5658-493b-a283-c4d32ada856a")
+	)
+	(hierarchical_label "OUTPUT_ADC"
 		(shape input)
 		(at 44.45 74.93 180)
 		(effects
@@ -2006,7 +2037,7 @@
 			)
 			(justify right)
 		)
-		(uuid "815d7d84-b210-4145-8dae-134097c37ce4")
+		(uuid "6de0158c-41b3-4ee9-b2e1-5c7d836ed48b")
 	)
 	(hierarchical_label "+V_{USB}"
 		(shape output)
@@ -2850,6 +2881,72 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/0d4ea742-5b63-4b37-8bef-d162cee54c1e"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e8bf3d-6e48-41d3-b598-3c64c5ad7b4a")
+		(property "Reference" "#PWR060"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ae611f8-f1cd-4412-b762-d1c81607ba9b")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/0d4ea742-5b63-4b37-8bef-d162cee54c1e"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
