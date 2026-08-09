@@ -1,0 +1,137 @@
+(footprint "battery_holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f34ece7a-88b9-4d7e-9aa7-d69d19eb2a97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery_holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95a0aec4-1f19-4026-bab4-75e5688d27ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e5d9240-393c-445a-90c0-a2732b3344d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7eb504f-b20a-416a-8b5b-ec28afecb864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -43.6 -10.4)
+		(end 43.6 10.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4c065f6d-ae71-4120-a9fd-72bd5f338b1c")
+	)
+	(fp_rect
+		(start -44 -10.75)
+		(end 44 10.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9962e866-d923-4c2c-afdf-bbc52ffe095a")
+	)
+	(fp_rect
+		(start -38.75 -10.4)
+		(end 38.75 10.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "170cbccb-be57-4733-8b8f-b8b02294d37f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "563d0d60-7a07-4e9c-8333-7a687866169d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 36 8)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7bf8d349-37fc-4545-9e18-6b7f13a5291e")
+	)
+	(pad "1" smd roundrect
+		(at 39.5 0)
+		(size 7.3 6.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "78af710b-4b65-4dac-b7ba-ede54c5f8b45")
+	)
+	(pad "2" smd roundrect
+		(at -39.5 -0.1)
+		(size 7.3 6.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "af4d1229-107c-4970-bd9e-6c229b0cd3b6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PEKG.pretty/18650_LI-ON_Battery_Holder_1042P.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
