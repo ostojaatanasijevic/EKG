@@ -1,0 +1,53 @@
+Circuit: * C:\users\ostoja\Desktop\Elektronika\PEKG\simulations\input_detection.asc
+
+Limiting fall time of source v3 to 0.000999
+Limiting fall time of source v2 to 0.000999
+WARNING: Less than two connections to node U3:DP.  This node is used by A:U3:DDEL.
+WARNING: Less than two connections to node NC_01.  This node is used by R:U3:OUT2:OUT.
+WARNING: Less than two connections to node N005.  This node is used by R8.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.000497691
+vernier = 0.888888
+vernier = 1
+Gmin = 7.02013e-005
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+
+Date: Sun May 25 11:29:52 2025
+Total elapsed time: 3.351 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 176379
+traniter = 175819
+tranpoints = 84666
+accept = 83525
+rejected = 1141
+matrix size = 197
+fillins = 96
+solver = Normal
+Thread vector: 6.7/4.9[6] 3.3/2.3[5] 0.7/1.6[1] 0.4/1.5[1]  2592/500
+Matrix Compiler1: 17.91 KB object code size  2.5/0.9/[0.9]
+Matrix Compiler2: 17.48 KB object code size  0.9/1.1/[0.8]
+
