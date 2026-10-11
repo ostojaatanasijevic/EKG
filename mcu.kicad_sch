@@ -2525,7 +2525,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "0"
 			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2991,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "0"
 			(at 60.96 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3160,7 +3160,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "0"
 			(at 113.03 96.52 0)
 			(hide yes)
 			(show_name no)
