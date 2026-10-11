@@ -3216,133 +3216,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-BATT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4121,6 +3994,14 @@
 		(color 0 0 0 0)
 		(uuid "ffcff9f7-75ae-46e8-8af1-9454b2c6346c")
 	)
+	(no_connect
+		(at 350.52 66.04)
+		(uuid "3c46ccb2-44ed-481e-9508-ef68bc2b40f2")
+	)
+	(no_connect
+		(at 350.52 46.99)
+		(uuid "cbf93c87-3b6a-4c13-af19-83a0d16782be")
+	)
 	(wire
 		(pts
 			(xy 85.09 33.02) (xy 87.63 33.02)
@@ -4250,16 +4131,6 @@
 			(type default)
 		)
 		(uuid "0ab38def-79c3-4863-b2dd-1720fb44d624")
-	)
-	(wire
-		(pts
-			(xy 177.8 265.43) (xy 177.8 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c5a1402-f84e-4130-b2ad-4a2ff2b4ee24")
 	)
 	(wire
 		(pts
@@ -5623,6 +5494,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 265.43) (xy 177.8 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e6b22b-c2b4-4481-81bd-a3b684a23854")
+	)
+	(wire
+		(pts
 			(xy 38.1 132.08) (xy 44.45 132.08)
 		)
 		(stroke
@@ -6810,7 +6691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 350.52 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8243,6 +8124,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 345.44 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3683fbb0-9cac-48cf-b0ff-6810950d084f")
+		(property "Reference" "#PWR0122"
+			(at 345.44 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 345.44 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 345.44 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74dfd3f1-b78c-405e-9faa-7f5d8437bda2")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 121.92 44.45 90)
 		(unit 1)
@@ -8358,7 +8317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 350.52 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8437,7 +8396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 364.49 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8570,6 +8529,85 @@
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "SW2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 345.44 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ad9aeb-b980-4c1b-8013-0773da9f2fa0")
+		(property "Reference" "#PWR0121"
+			(at 349.25 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 341.63 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 345.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38446f31-14c0-4563-b5a2-df2a6da47735")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR0121")
+					(unit 1)
 				)
 			)
 		)
@@ -9160,6 +9198,84 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 345.44 204.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba7701a-864f-4a41-9c97-b37d2d884f76")
+		(property "Reference" "#PWR0124"
+			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-V_{BAT}"
+			(at 345.44 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 345.44 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7df46829-e028-446e-bcc0-e7f505aab80a")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -10511,84 +10627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 345.44 186.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fe8a77f-3402-4e51-836b-2eec1673336f")
-		(property "Reference" "#PWR057"
-			(at 345.44 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 345.44 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 345.44 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4839ee6-6edc-4a7f-a9df-1e10c54b8379")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 187.96 63.5 180)
 		(unit 1)
@@ -10878,83 +10916,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 345.44 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83f44c2a-d099-4574-825f-91e517bc582f")
-		(property "Reference" "#PWR053"
-			(at 349.25 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 338.582 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 345.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2866d0ed-ce64-4939-b003-5805da223164")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12328,6 +12289,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 345.44 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f11d11-8bfa-424e-befb-f629aad93bd1")
+		(property "Reference" "#PWR0119"
+			(at 349.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_{BAT}"
+			(at 341.63 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 345.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbfca0e8-0148-48a1-8f89-79129e7e4276")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 170.18 0)
 		(unit 1)
@@ -13395,84 +13435,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 345.44 204.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1602910-e235-4f2a-8f35-bc10b723d784")
-		(property "Reference" "#PWR058"
-			(at 345.44 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 345.44 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 345.44 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29a371a1-d3a1-4001-aee3-ddfd610d18bc")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -15831,161 +15793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 177.8 269.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebc9c3b8-f445-4452-85db-a34c7c0b7f3b")
-		(property "Reference" "#PWR0120"
-			(at 177.8 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 177.8 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 177.8 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5317676-5d67-4125-a35a-efb6ac3f783b")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 345.44 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "edeaddfd-3e67-485a-b2f1-feddc983446b")
-		(property "Reference" "#PWR0104"
-			(at 349.25 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 338.582 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 345.44 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "641de6ed-add2-43f0-9e90-67e6b1be136a")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 359.41 204.47 0)
 		(unit 1)
@@ -16163,6 +15970,84 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 177.8 269.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a1b14b-df33-4669-9704-bdcbbc54ee8d")
+		(property "Reference" "#PWR0123"
+			(at 177.8 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-V_{BAT}"
+			(at 177.8 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 177.8 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15a6a215-a340-4bfa-83e3-901a56237667")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
