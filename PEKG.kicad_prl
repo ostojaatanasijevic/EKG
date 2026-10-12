@@ -21,10 +21,10 @@
       "footprints": false,
       "graphics": false,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": false,
       "pads": false,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": false,
       "zones": false
