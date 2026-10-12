@@ -7775,7 +7775,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61b5da8b-f63b-458f-8c3a-0ec0fafb6f36")
 		(property "Reference" "#PWR019"
 			(at 209.55 80.01 0)
@@ -7788,14 +7787,15 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
-			(at 209.55 71.12 0)
+		(property "Value" "+3V3"
+			(at 207.01 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

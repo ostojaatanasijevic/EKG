@@ -454,7 +454,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 24.13 125.73 0)
+		(at 53.34 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -464,7 +464,7 @@
 		(dnp no)
 		(uuid "0c3764e9-1df8-4553-89ea-56bfbfbc7b81")
 		(property "Reference" "H3"
-			(at 26.67 124.46 0)
+			(at 55.88 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -475,7 +475,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.67 127 0)
+			(at 55.88 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -485,8 +485,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
-			(at 24.13 125.73 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
+			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -497,7 +497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 125.73 0)
+			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -508,7 +508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 125.73 0)
+			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -687,7 +687,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 53.34 118.11 0)
+		(at 24.13 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -698,7 +698,7 @@
 		(fields_autoplaced yes)
 		(uuid "7380b1a0-f8b2-466b-b83a-f01ec9a63e25")
 		(property "Reference" "H2"
-			(at 55.88 116.84 0)
+			(at 26.67 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -709,7 +709,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 55.88 119.38 0)
+			(at 26.67 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -720,7 +720,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
-			(at 53.34 118.11 0)
+			(at 24.13 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -731,7 +731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 118.11 0)
+			(at 24.13 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 118.11 0)
+			(at 24.13 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -794,7 +794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
 			(at 24.13 118.11 0)
 			(hide yes)
 			(show_name no)

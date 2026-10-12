@@ -8035,6 +8035,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 355.6 63.5 180)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "308367d5-c5fc-4863-93d5-09e59bdba16e")
+		(property "Reference" "SW2"
+			(at 355.6 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 355.6 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PEKG:SW_EG1271"
+			(at 355.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 355.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "7912d419-1b1b-47e0-8394-a6ff22a81cdc")
+		)
+		(pin "4"
+			(uuid "70326d98-e253-4c12-a711-ffe0bfeaff1c")
+		)
+		(pin "6"
+			(uuid "c0196cc3-ec25-4066-a576-387bf08ba789")
+		)
+		(pin "3"
+			(uuid "6d25783e-b4b3-4c50-b909-2d5acf97c684")
+		)
+		(pin "2"
+			(uuid "e0d27fb3-fbee-4a36-afd3-b0940ba9a5ca")
+		)
+		(pin "1"
+			(uuid "cbd491ff-dc61-4d61-95d3-a62820471eb2")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 257.81 180)
 		(unit 1)
@@ -8437,98 +8528,6 @@
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
 					(reference "TP19")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 355.6 63.5 0)
-		(mirror y)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4875dc01-b44c-46e5-a122-b549fe1c56a0")
-		(property "Reference" "SW2"
-			(at 355.6 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 355.6 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PEKG:SW_EG1271"
-			(at 355.6 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 355.6 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "1a917b89-d11e-4d35-b99d-a5fd1f8b2a0a")
-		)
-		(pin "4"
-			(uuid "861232b6-292a-453c-aeac-8e4d74c1fe0f")
-		)
-		(pin "6"
-			(uuid "1da6bf2d-e8a1-4914-95fc-1fae053d1a06")
-		)
-		(pin "3"
-			(uuid "6d25783e-b4b3-4c50-b909-2d5acf97c684")
-		)
-		(pin "2"
-			(uuid "e0d27fb3-fbee-4a36-afd3-b0940ba9a5ca")
-		)
-		(pin "1"
-			(uuid "cbd491ff-dc61-4d61-95d3-a62820471eb2")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/6fa30cf5-6cec-42b2-97a9-c587e0c475aa"
-					(reference "SW2")
-					(unit 2)
 				)
 			)
 		)
